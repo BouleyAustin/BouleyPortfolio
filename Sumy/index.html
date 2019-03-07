@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<title>Sumy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#header" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#GetStarted" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Get Started</a>
+    <a href="#About" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Sumy</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#GetStarted" class="w3-bar-item w3-button w3-padding-large">Get Started</a>
+    <a href="#About" class="w3-bar-item w3-button w3-padding-large">About Sumy</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header id="header" class="w3-container w3-blue w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Sumy</h1>
+  <p class="w3-xlarge">Advanced Summarization, Keyword Extraction, and Visualization for Samantha Worley</p>
+  <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top"><a href="#GetStarted" style="text-decoration: none;">Get Started</a></button>
+</header>
+
+<!-- First Grid -->
+<div id="GetStarted" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Get Started with Sumy</h1>
+      <h5 class="w3-padding-32">Sumy will give you a summary, keywords with definitions, and YouTube videos related to the text entered.
+          If you want to try Sumy, then insert a Website URL, Upload a file, or Upload Text Manually.</h5>
+        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="#">URL</button>
+        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="#">Upload a file (.pdf)</button>
+        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="#">Manually</button>
+    </div>
+    <div class="w3-third w3-center">
+      <img src="summary.png" class="w3-padding-64 w3-text-red">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div id="About" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="diploma.png" class="w3-padding-64 w3-text-red w3-margin-right">
+    </div>
+
+    <div class="w3-twothird">
+      <h1>About Sumy</h1>
+      <h5 class="w3-padding-32">Sumy was programmed and copyrighted by Austin Bouley in order to help himself and other visual
+      learners retain information easier. Austin always had a hard time with reading comprehension; therefore,
+      in order to assist him learn information quicker and easier, he created Sumy to summarize long passages, give him keywords and
+      definitions to memorize, and YouTube video recommendations because he learned better from watching. Through his research, he
+      learned that 65% of the population is visual learners; therefore, Austin Bouley hopes he can assist others in learning and retaining
+      information to the best of their ability: visually.</h5>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the Month: "We must teach the way students learn."</h1>
+    <center><p>~ Samantha Worley, Professor of Psychology, NYU</p></center>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <!--
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+    -->
+ <p>Powered by HTML5 and Python, &copy; 2017</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
