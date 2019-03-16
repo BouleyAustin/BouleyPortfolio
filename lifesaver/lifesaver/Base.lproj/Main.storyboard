@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="F9l-bd-W9i">
+            <objects>
+                <viewController id="yvf-z2-Zkz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mgm-0n-91v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Aid Training" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jv-XZ-W7A">
+                                <rect key="frame" x="80.5" y="70" width="214" height="35"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gga-Bv-epL">
+                                <rect key="frame" x="15" y="115" width="345" height="477"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Bite Wound
+
+If the victim was bitten by an unprovoked undomesticated animal such as a raccoon or a bat, an immediate shot may be necessary to prevent the possibility of a rabies infection.
+Contrary to common belief, a human bite can sometimes be more dangerous than that of an animal because human saliva contains many more types of bacteria which may cause infection.
+A bite from a domestic pet can be painful but rarely requires a visit to the emergency room and unless obvious bodily harm was sustained, a simple precautionary treatment will suffice.
+Use antibacterial soap and water to thoroughly clean the bite wound. Apply antibiotic ointment such as Neosporin to prevent infection. If the injury resulted in broken skin, dress it with a sterile bandage and replace the dressing frequently. If the bite is deep, the victim may need to be treated for a puncture wound.
+ 
+Bruise
+ 
+A typical bruise is a contusion caused by traces of blood escaping from small vessels that lie close to the skin's surface. Since our blood vessels become more fragile with age, the elderly tend to bruise easier than healthy adults and children. Conversely, if a child sustains excessive bruising, it may be an indication of a more serious injury and should be treated accordingly.
+If the bruise is on the victim's head, he may've have sustained a concussion and should be checked for head trauma. 
+To reduce the bump and minimize the pain, have the victim elevate the injured area and apply a commercial ice pack or ice cubes wrapped in a towel for 30 to 45 minutes. Depending on the extent of the injury, this process should be repeated for a few days or until the swelling and the pain begin to dissipate.
+ 
+Burns
+ 
+A burn victim will require different type of care depending on the type and extent of his injury. Burns vary greatly from a common, fairly harmless sunburn to a potentially life-threatening 3rd degree burn caused by open flames or electrocution. Here's how to distinguish the three different types of burn injuries and how to care for each:
+1st degree burns are usually accompanied by redness and some swelling of the skin. Treat a minor burn by first cooling the affected area. If possible, keep the injury under cool running water for at least 10 minutes. If running water is not available place the burn in a container of cold water such as a bucket, tub or even a deep dish. Using a cool, wet compress made of clean cloth will also work if nothing else is available. Keeping the burn cool will reduce pain and minimize the swelling. If the injury is on the part of a body where jewelry or snug clothing is present, carefully remove them before it begins to swell. Apply a moisturizing lotion or Aloe Vera extract and dress the burnt area with loosely wrapped sterile gauze. 
+2nd degree burns will result in deeper, more intense redness of the skin as well as swelling and blistering. This type of burn should be treated just as a 1st degree burn but because the damage to the skin is more extensive, extra care should be taken to avoid infection and excessive scarring. Replace the dressing daily and keep the wound clean. If a blister breaks use mild soap and warm water to rinse the area. Apply antibiotic cream such as Neosporin to prevent infection before redressing in sterile gauze. 3rd degree burns may appear and feel deceptively harmless as the victim may not feel much pain due to complete destruction of all layers of skin and tissue as well as nerve endings. The damaged area may appear charred or ash-color and will instantly start to blister or "peel". If the victim's clothing is on fire, douse him with non-flammable liquid. Dial 9-1-1. Do not remove burnt clothing from the victim as this will expose open wounds to the elements and potential infection. If possible, cover the victim's injuries with wet sterile cloth to reduce the pain and swelling. If you notice that the victim is going into shock and loses consciousness, you will need to perform CPR.
+ 
+Choking
+ 
+Choking is usually caused by a piece of foreign matter such as food becoming lodged in a person's windpipe. Because a choking victim is fully aware that he cannot breathe normally, a sense of panic may overcome them, making assessing the situation and rescue efforts difficult. It is important to try and keep the victim calm in order to determine whether your assistance is truly necessary or if the victim's own coughing reflex is sufficient.
+Start by asking the person if he is choking. This simple step can be deceptively effective - the victim may be coughing violently or even gasping for air, but if he is able to answer then he is probably not choking. A choking victim will not be able to speak since oxygen cannot reach his lungs. But if after asking the person if he's choking all he can do is gesture or point to his throat and you notice his face starting to turn blue, then he is most likely choking and you will need to perform the Heimlich Maneuver immediately. Start by finding the proper stance - behind the victim with one of your feet planted firmly between the victim's feet. Wrap one of your arms around the victim and place your hand in a closed fist just slightly above his belly button. Place your other hand directly on top of the first. Squeeze the victim's abdomen in quick upward thrusts as many times as it is necessary to dislodge the object in his windpipe.
+If you fail to clear the victim's air passage, dial 9-1-1 immediately and continue to perform the Heimlich Maneuver until help arrives. 
+ 
+Cuts and Scrapes
+ 
+The first and possibly most important step when treating minor cuts and scrapes is to thoroughly clean the wound with mild antibacterial soap and water. You can use sterilized tweezers to remove any debris that remains embedded in the wound after rinsing. This will reduce the risk of an infection and possible complications. If the debris is abundant or can't be removed for some other reason, a trip to the emergency room will be necessary.
+Water may induce bleeding by thinning the blood. If while rinsing the wound you notice increased blood flow, use gauze or a clean cloth to apply gentle, continuous pressure until the blood clots.
+Although hydrogen peroxide is commonly used as a disinfectant for minor cuts and scrapes, it is actually not very effective and may even delay the healing process by irritating a person's living cells. You can use hydrogen peroxide but apply it around the open wound, not directly to it. An antibiotic ointment such as Neosporin is a better alternative - it will keep the wound from getting infected and speed up the healing process.
+Dress the wound with a bandage or sterile gauze to keep dirt and bacteria out. Change the dressing frequently and rinse the wound as often as necessary to keep it free of dirt.
+Continue to monitor the wound for several days. If the injured area turns red or puffy, or if excessive pain persists, then it may've become infected and will require a physician's attention. Do not simply dismiss cuts as minor injuries as some may be quite serious if not tended to by a professional. If the wound is very deep or the bleeding is profuse, it may require stitches in order to heal properly. 
+ 
+Fractures
+
+A fracture (broken bone) may not always be obvious as most breaks do not result in compound fractures (bone protruding through the skin). It is important not to misdiagnose a break and mistake it for a bruise or sprain. Typical symptoms of a fracture are: Immediate and excessive swelling, Injured area appears deformed, The farthest point of the injured limb turns blue or is numb to the touch, and Even slight movement or contact to the injured area causes excessive pain.
+Dial 9-1-1 immediately and immobilize the broken bone with a splint. A functional splint can be made of almost any material (wood, plastic, etc.) as long as it is rigid and is longer than the broken bone. To apply the splint simply lay it along the broken bone and wrap it against the limb with gauze or a length of cloth, starting at a point farthest from the body. Do not wrap it too tight as this may cut off blood flow.
+If the break is in the forearm, loosely wrap a magazine or a thick newspaper around the break and use a sling fashioned from gauze or a strip of cloth to keep the elbow immobilized.
+A break in the lower part of the leg requires two splints, one on each side of the leg (or at least the shin). If suitable material is not available, you can use the victim's healthy leg as a makeshift splint.
+As much as possible, keep the victim from moving and until an ambulance arrives, remember ICE: "I" is for ice - if possible apply an ice pack or ice cubes to the injured area. This will keep down the swelling and reduce pain. "C" is for compression - if the wound is bleeding, apply direct pressure with a clean cloth to reduce blood flow. "E" is for elevation - try to keep the injured area as high above heart level as possible. This will reduce blood flow to the injury and minimize swelling. 
+ 
+Puncture Wounds
+ 
+Unlike a cut, a puncture wound does not typically result in profuse or excessive bleeding and although painful, may look harmless as the skin around the wound simply closes. But puncture wounds carry a risk of infection and if left unattended can result in serious complications.
+Injuries sustained by stepping on a nail that punctures through a shoe are especially prone to infection. If the injury is caused by stepping on a nail or a shard of glass that's been exposed to the elements, it is a good idea to consult a physician who may recommend a tetanus shot or booster.
+A bite from a household pet or another person that results in a puncture wound should be considered and treated as serious injury. If the bleeding is heavy or the item that caused the wound appears unsanitary, thoroughly clean the injured area with mild antibacterial soap and water and seek professional medical assistance as soon as possible.
+If the injury is minor, clean it with soap and water and apply an antibiotic ointment such as Neosporin to prevent infection. Dress the wound with sterile bandage and replace the dressing frequently. It is prudent to keep a close eye on the wound for several days to prevent an onset of an infection from any debris that may've lodged itself deep in the wound. If you notice persistent redness or puffiness or if the wound starts to ooze pus, have the victim consult a doctor right away. 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKQ-dm-2X8">
+                                <rect key="frame" x="95" y="611" width="185" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Back To Home">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="9EJ-en-9ZJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eDP-WO-7M6" firstAttribute="bottom" secondItem="gga-Bv-epL" secondAttribute="bottom" constant="75" id="CZi-x0-TZT"/>
+                            <constraint firstItem="gga-Bv-epL" firstAttribute="leading" secondItem="eDP-WO-7M6" secondAttribute="leading" constant="15" id="K9P-Ox-V6q"/>
+                            <constraint firstItem="9jv-XZ-W7A" firstAttribute="top" secondItem="eDP-WO-7M6" secondAttribute="top" constant="50" id="LLc-IU-nBP"/>
+                            <constraint firstItem="gga-Bv-epL" firstAttribute="top" secondItem="9jv-XZ-W7A" secondAttribute="bottom" constant="10" id="Pem-Cw-ho0"/>
+                            <constraint firstItem="nKQ-dm-2X8" firstAttribute="centerX" secondItem="Mgm-0n-91v" secondAttribute="centerX" id="dhM-Vc-iiT"/>
+                            <constraint firstItem="eDP-WO-7M6" firstAttribute="bottom" secondItem="nKQ-dm-2X8" secondAttribute="bottom" constant="20" id="mNk-Kw-KnM"/>
+                            <constraint firstItem="9jv-XZ-W7A" firstAttribute="centerX" secondItem="Mgm-0n-91v" secondAttribute="centerX" id="o4I-pa-kss"/>
+                            <constraint firstItem="eDP-WO-7M6" firstAttribute="trailing" secondItem="gga-Bv-epL" secondAttribute="trailing" constant="15" id="tJb-b5-3yC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eDP-WO-7M6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8g-Er-hcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-790" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lifesaver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2J-jS-fqg">
+                                <rect key="frame" x="137.5" y="233" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0G7-hu-9De"/>
+                                    <constraint firstAttribute="height" constant="100" id="j5x-KM-tC1"/>
+                                </constraints>
+                                <state key="normal" title="CPR Basics" image="cpr.png"/>
+                                <connections>
+                                    <segue destination="Nxm-o2-s1A" kind="show" id="x4p-yt-iq0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live Saver Training" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMu-ac-IHX">
+                                <rect key="frame" x="52" y="100" width="271" height="40"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQH-b1-42x">
+                                <rect key="frame" x="155.5" y="403" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="WFq-dc-MNS"/>
+                                    <constraint firstAttribute="width" constant="64" id="hJD-SY-TnC"/>
+                                </constraints>
+                                <state key="normal" title="First Aid" image="first aid.png"/>
+                                <connections>
+                                    <segue destination="yvf-z2-Zkz" kind="show" id="xv6-Uj-OVb"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Information from www.firstaidweb.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tJ6-lA-d7n">
+                                <rect key="frame" x="52.5" y="617" width="270" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FQH-b1-42x" secondAttribute="bottom" constant="200" id="5kw-Ju-FnT"/>
+                            <constraint firstItem="tJ6-lA-d7n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EtT-9j-aBj"/>
+                            <constraint firstItem="xMu-ac-IHX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K49-zE-h9T"/>
+                            <constraint firstItem="FQH-b1-42x" firstAttribute="top" secondItem="Y2J-jS-fqg" secondAttribute="bottom" constant="70" id="MnV-wN-BQx"/>
+                            <constraint firstItem="FQH-b1-42x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N1V-hd-R2C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tJ6-lA-d7n" secondAttribute="bottom" constant="20" id="m6W-6x-JDy"/>
+                            <constraint firstItem="Y2J-jS-fqg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nHR-1E-i2k"/>
+                            <constraint firstItem="xMu-ac-IHX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="qCx-kt-PsF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-42" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9mP-we-wEu">
+            <objects>
+                <viewController id="Nxm-o2-s1A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rea-qQ-vrB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to CPR Training" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekX-vg-sIO">
+                                <rect key="frame" x="30" y="120" width="315" height="35"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MaW-Zs-fI7">
+                                <rect key="frame" x="95" y="196" width="185" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="GjJ-kO-ZkM"/>
+                                    <constraint firstAttribute="height" constant="36" id="Jvc-6v-hbr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="How CPR Works">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="RCb-Fq-D22" kind="show" id="ILA-gU-sSb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGe-aU-vyp">
+                                <rect key="frame" x="95" y="252" width="185" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="qAF-eh-oxT"/>
+                                    <constraint firstAttribute="height" constant="36" id="zhq-8X-AUj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Dial 9-1-1">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="fA0-pj-x2A" kind="show" id="H3b-1h-Xdn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdD-DA-U0w">
+                                <rect key="frame" x="95" y="308" width="185" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="F9B-D7-yrH"/>
+                                    <constraint firstAttribute="height" constant="36" id="bpo-jZ-G6f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Adult CPR">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="eWS-Ah-5dE" kind="show" id="yfi-eB-L7j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BL-P6-NYj">
+                                <rect key="frame" x="95" y="364" width="185" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="Syu-c9-cls"/>
+                                    <constraint firstAttribute="height" constant="36" id="WHX-hs-qro"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Child CPR">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="RWq-bB-iQf" kind="show" id="uIm-ZO-PHW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrh-cR-OvM">
+                                <rect key="frame" x="95" y="420" width="185" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="cfk-ms-dZJ"/>
+                                    <constraint firstAttribute="width" constant="185" id="wTv-gS-5mo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Infant CPR">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="bxy-3K-s5i" kind="show" id="6xq-HC-nJs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8i-Su-AJO">
+                                <rect key="frame" x="95" y="531" width="185" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="iHN-uw-IfI"/>
+                                    <constraint firstAttribute="height" constant="36" id="mPC-CQ-i94"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Back To Home">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Ady-sk-8Cc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="r8i-Su-AJO" firstAttribute="top" secondItem="Zrh-cR-OvM" secondAttribute="bottom" constant="75" id="5jZ-Ql-zov"/>
+                            <constraint firstItem="oGe-aU-vyp" firstAttribute="top" secondItem="MaW-Zs-fI7" secondAttribute="bottom" constant="20" id="8BX-D5-Xdh"/>
+                            <constraint firstItem="EDg-tT-tvf" firstAttribute="bottom" secondItem="r8i-Su-AJO" secondAttribute="bottom" constant="100" id="8WF-jV-Mtm"/>
+                            <constraint firstItem="hdD-DA-U0w" firstAttribute="centerX" secondItem="Rea-qQ-vrB" secondAttribute="centerX" id="GNb-ss-Kjp"/>
+                            <constraint firstItem="hdD-DA-U0w" firstAttribute="top" secondItem="oGe-aU-vyp" secondAttribute="bottom" constant="20" id="H2M-lv-ZMC"/>
+                            <constraint firstItem="ekX-vg-sIO" firstAttribute="centerX" secondItem="Rea-qQ-vrB" secondAttribute="centerX" id="V0x-55-Pbu"/>
+                            <constraint firstItem="1BL-P6-NYj" firstAttribute="top" secondItem="hdD-DA-U0w" secondAttribute="bottom" constant="20" id="VN1-Vc-yQi"/>
+                            <constraint firstItem="oGe-aU-vyp" firstAttribute="centerX" secondItem="Rea-qQ-vrB" secondAttribute="centerX" id="ZfK-yQ-vd6"/>
+                            <constraint firstItem="MaW-Zs-fI7" firstAttribute="centerX" secondItem="Rea-qQ-vrB" secondAttribute="centerX" id="pMr-2H-2kJ"/>
+                            <constraint firstItem="Zrh-cR-OvM" firstAttribute="top" secondItem="1BL-P6-NYj" secondAttribute="bottom" constant="20" id="r2i-RS-dZl"/>
+                            <constraint firstItem="r8i-Su-AJO" firstAttribute="centerX" secondItem="Rea-qQ-vrB" secondAttribute="centerX" id="tA8-Zb-dfY"/>
+                            <constraint firstItem="1BL-P6-NYj" firstAttribute="centerX" secondItem="Rea-qQ-vrB" secondAttribute="centerX" id="tgX-6r-xhY"/>
+                            <constraint firstItem="ekX-vg-sIO" firstAttribute="top" secondItem="EDg-tT-tvf" secondAttribute="top" constant="100" id="txA-5A-Ird"/>
+                            <constraint firstItem="Zrh-cR-OvM" firstAttribute="centerX" secondItem="Rea-qQ-vrB" secondAttribute="centerX" id="y4T-N1-cJm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EDg-tT-tvf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iWp-yE-U93" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8kt-IE-4eO">
+            <objects>
+                <viewController id="eWS-Ah-5dE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sAL-eP-0FO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adult CPR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXB-qV-ZHN">
+                                <rect key="frame" x="124.5" y="70" width="126.5" height="35"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y7E-0P-NJp">
+                                <rect key="frame" x="15" y="115" width="345" height="477"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">American Heart Association's guidelines dictate that Adult CPR is performed on any person over the age of approximately 10 to 14 years (or post-adolescence, as defined by the presence of secondary sex characteristics).
+
+Before you start any rescue efforts, you must remember to check the victim for responsiveness.
+
+If you suspect that the victim has sustained spinal or neck injury, do not move or shake him. Otherwise, shake the victim gently and shout "Are you okay?" to see if there is any response. If the victim is someone you know, call out his name as you shake him.
+
+If there is no response, immediately dial 911 and check the victim for circulation
+
+ CIRCULATION
+"C" is for CIRCULATION. In order to determine if the victim's heart is beating, place two fingertips on his carotid artery, located in the depression between the windpipe and the neck muscles, and apply slight pressure for several seconds.
+If there is no pulse then the victim's heart is not beating, and you will have to perform chest compressions.
+
+COMPRESSIONS
+When performing chest compressions, proper hand placement is very important. To locate the correct hand position place two fingers at the sternum (the spot where the lower ribs meet) then put the heel of your other hand next to your fingers.
+Place one hand on top of the other and interlace the fingers. Lock your elbows and using your body's weight, compress the victim's chest. The depth of compressions should be at least 2 inches - remember: 2 hands, 2 inches.
+Count aloud as you compress 30 times at the rate of about 3 compressions for every 2 seconds or approximately 100-120 compressions per minute with minimal pauses between compressions.
+Chest compressions will supply blood flow to the heart and the brain but if victim remains unresponsive you will need to check their airway.
+
+AIRWAY
+"A" is for AIRWAY. If the victim is unconscious and is unresponsive, you need to make sure that his airway is clear of any obstructions. If you determine that the victim is not breathing, then something may be blocking his air passage. The tongue is the most common airway obstruction in an unconscious person.
+With the victim lying flat on his back, place your hand on his forehead and your other hand under the tip of the chin. Gently tilt the victim's head backward. In this position the weight of the tongue will force it to shift away from the back of the throat, opening the airway.
+If the person is still not breathing on his own after the airway has been cleared, you will have to assist him breathing.
+
+
+BREATHING 
+Note: you may skip this step if performing "compression only" CPR
+"B" is for BREATHING. With the victim's airway clear of any obstructions, gently support his chin so as to keep it lifted up and the head tilted back. Pinch his nose with your fingertips to prevent air from escaping once you begin to ventilate and place your mouth over the victim's, creating a tight seal.
+As you assist the person in breathing, keep an eye on his chest. Try not to over-inflate the victim's lungs as this may force air into the stomach, causing him to vomit. If this happens, turn the person's head to the side and sweep any obstructions out of the mouth before proceeding.
+Give two full breaths. Between each breath allow the victim's lungs to relax - place your ear near his mouth and listen for air to escape and watch the chest fall as the victim exhales.
+
+Review
+
+In case of an emergency you may be the victim's only chance of survival. Until an ambulance arrives and professional assistance is available, you can increase that chance by 40% simply by remembering and effectively administering Cardio Pulmonary Resuscitation.
+1. Check for responsiveness by shouting and shaking the victim. Do not shake or move the victim if you suspect he may have sustained spinal injury.
+2. Call 911.
+3. Remember C-A-B:
+Circulation: if there is no pulse, perform 30 chest compressions at the rate of at least 100/minute - 2 hands, 2 inches.
+Airway: tilt the head back and lift the neck to clear the airway.
+Breathing: pinch the victim's nose and give 2 breaths, watching for the chest to rise with each breath.
+A brief quiz that follows is intended to reinforce what you've learned about Adult CPR and we strongly recommend that you take and pass the test yourself before proceeding to the next section.
+
+
+
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6l-QR-IEd">
+                                <rect key="frame" x="20" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="DHj-4q-gxI"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="DxT-XR-7ri"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="85" id="X6H-7H-aGa"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="d8D-cg-fbG"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="36" id="gUT-v1-76B"/>
+                                    <constraint firstAttribute="height" constant="36" id="kHj-gG-8PR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="fA0-pj-x2A" kind="show" id="4D6-xh-2k3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGR-z5-rSv">
+                                <rect key="frame" x="270" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="37w-Nr-ehf"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="85" id="5ru-dB-AnD"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="6Bn-zq-ca3"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="36" id="DCW-i5-tli"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="FBf-FL-7aE"/>
+                                    <constraint firstAttribute="width" constant="85" id="QSw-oI-my4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="RWq-bB-iQf" kind="show" id="hzA-Sf-w8Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="y7E-0P-NJp" firstAttribute="top" secondItem="pXB-qV-ZHN" secondAttribute="bottom" constant="10" id="Dgx-vj-49l"/>
+                            <constraint firstItem="iQI-KK-C2l" firstAttribute="trailing" secondItem="cGR-z5-rSv" secondAttribute="trailing" constant="20" id="Iwz-o6-oCZ"/>
+                            <constraint firstItem="pXB-qV-ZHN" firstAttribute="top" secondItem="iQI-KK-C2l" secondAttribute="top" constant="50" id="Jwe-mh-0uT"/>
+                            <constraint firstItem="iQI-KK-C2l" firstAttribute="trailing" secondItem="y7E-0P-NJp" secondAttribute="trailing" constant="15" id="V4A-cj-Dkb"/>
+                            <constraint firstItem="iQI-KK-C2l" firstAttribute="bottom" secondItem="y7E-0P-NJp" secondAttribute="bottom" constant="75" id="WEu-g1-UL7"/>
+                            <constraint firstItem="iQI-KK-C2l" firstAttribute="bottom" secondItem="d6l-QR-IEd" secondAttribute="bottom" constant="20" id="Xvf-FO-LOY"/>
+                            <constraint firstItem="pXB-qV-ZHN" firstAttribute="centerX" secondItem="sAL-eP-0FO" secondAttribute="centerX" id="amo-Qw-cIp"/>
+                            <constraint firstItem="d6l-QR-IEd" firstAttribute="leading" secondItem="iQI-KK-C2l" secondAttribute="leading" constant="20" id="blJ-b9-MZk"/>
+                            <constraint firstItem="y7E-0P-NJp" firstAttribute="leading" secondItem="iQI-KK-C2l" secondAttribute="leading" constant="15" id="fcq-xI-amD"/>
+                            <constraint firstItem="y7E-0P-NJp" firstAttribute="centerX" secondItem="sAL-eP-0FO" secondAttribute="centerX" id="gVr-rX-oe7"/>
+                            <constraint firstItem="iQI-KK-C2l" firstAttribute="bottom" secondItem="cGR-z5-rSv" secondAttribute="bottom" constant="20" id="knt-hN-m8c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iQI-KK-C2l"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bcX-Q6-fOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569" y="213"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cpI-sU-M8x">
+            <objects>
+                <viewController id="bxy-3K-s5i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kb0-fl-z0n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Infant CPR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zaz-1h-cUA">
+                                <rect key="frame" x="121.5" y="70" width="132" height="35"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ovm-sQ-Ldv">
+                                <rect key="frame" x="15" y="115" width="345" height="477"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">According to AHA guidelines, Infant CPR is administered to any victim under the age of 12 months except for newborns in the first hours after birth.
+Infants, just as children, have a much better chance of survival if CPR is performed immediately. If you are alone with the infant, do not dial 9-1-1 until after you have made an attempt to resuscitate the victim.
+Check the infant for responsiveness by patting his feet and gently tapping his chest or shoulders. If he does not react (stirring, crying, etc.), immediately check his circulation.
+ 
+CIRCULATION
+"C" is for CIRCULATION. An infant's pulse is checked at the brachial artery, which is located inside of the upper arm, between the elbow and the shoulder.
+Place two fingers on the brachial artery applying slight pressure for 3 to 5 seconds. If you do not feel a pulse within that time, then the infant's heart is not beating, and you will need to perform chest compressions.
+ 
+COMPRESSIONS
+An infant's delicate ribcage is especially susceptible to damage if chest compressions are improperly performed, therefore it is important to use caution when rescuing an infant.
+Place three fingers in the center of the infant's chest with the top finger on an imaginary line between the infant's nipples. Raise the top finger up and compress with the bottom two fingers. The compression should be approximately ⅓ the depth of the infant's chest.
+Count aloud as you perform 5 cycles of 30 compressions and 2 breaths before checking the infant for breathing and pulse.
+REMEMBER TO DIAL 9-1-1.
+If you cannot detect any signs of breathing you will need to check for obstructions in the victim's airway.
+ 
+AIRWAY
+"A" is for AIRWAY. It is normal for an infant to take shallow and rapid breaths, so carefully look, listen and feel for breathing. If you cannot detect any signs of breathing, the tongue may be obstructing the infant's airway.
+Although the head tilt/chin lift technique is similar to adults and children, when clearing an infant's airway it's important not to tilt the head too far back. An infant's airway is extremely narrow and overextending the neck may actually close off the air passage.
+Tilt the head back into what is called the "sniffer's position" - far enough to make the infant look as if he is sniffing.
+If the victim is still not breathing on his own, you'll need to assist him breathing.
+ 
+ 
+BREATHING 
+Note: you may skip this step if performing "compression only" CPR
+"B" is for BREATHING. Cover the infant's mouth and nose with your mouth creating a seal, and give a quick, gentle puff from your cheeks.
+Let the victim exhale on his own - watch his chest and listen and feel for breathing. If he does not breathe on his own, again place your mouth over his mouth and nose and give another small puff.
+ 
+Review
+ 
+Infant CPR should be administered to any victim under the age of 12 months (except for newborns in the first hours after birth). The procedure is as follows:
+1. Check for responsiveness by patting the infant's shoulders or chest.
+2. Remember C-A-B:
+Circulation: check for pulse at the brachial artery, in the infant's inside upper arm. If there is none, perform 30 compressions - 2 fingers (approximately ½ the size of a hand), ⅓ to ½ the depth of the infant's chest.
+Airway: an infant's head should be tilted into the "sniffer position". Do not overextend an infant's neck as this may close off the airway.
+Breathing: cover the infant's nose and mouth with your mouth and use gentle puffs, breathing from your cheeks, not your lungs, as you give 2 breaths.
+3. Perform 5 cycles 30 compressions/2 breaths for 1 to 2 minutes before dialing 9-1-1.
+4. Continue performing rescue efforts, checking for pulse every minute until help arrives.
+ </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNh-1t-ekz">
+                                <rect key="frame" x="20" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="IWe-kQ-Zhl"/>
+                                    <constraint firstAttribute="width" constant="85" id="y5t-tq-9ro"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="RWq-bB-iQf" kind="show" id="s5E-ua-cff"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8D-Xk-VJg">
+                                <rect key="frame" x="270" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="1K5-qh-Ot4"/>
+                                    <constraint firstAttribute="height" constant="36" id="Oyn-0t-JCK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Finish">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Nxm-o2-s1A" kind="show" id="2aN-pB-jAj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zaz-1h-cUA" firstAttribute="centerX" secondItem="kb0-fl-z0n" secondAttribute="centerX" id="2Ei-lg-nlp"/>
+                            <constraint firstItem="xNh-1t-ekz" firstAttribute="leading" secondItem="w1d-Ut-FBq" secondAttribute="leading" constant="20" id="6Z1-0w-JwG"/>
+                            <constraint firstItem="w1d-Ut-FBq" firstAttribute="bottom" secondItem="P8D-Xk-VJg" secondAttribute="bottom" constant="20" id="7wh-Sc-7Me"/>
+                            <constraint firstItem="Zaz-1h-cUA" firstAttribute="top" secondItem="w1d-Ut-FBq" secondAttribute="top" constant="50" id="EZH-Au-ZqT"/>
+                            <constraint firstItem="w1d-Ut-FBq" firstAttribute="bottom" secondItem="ovm-sQ-Ldv" secondAttribute="bottom" constant="75" id="OWZ-LT-rSr"/>
+                            <constraint firstItem="w1d-Ut-FBq" firstAttribute="trailing" secondItem="P8D-Xk-VJg" secondAttribute="trailing" constant="20" id="QO0-6c-LOo"/>
+                            <constraint firstItem="ovm-sQ-Ldv" firstAttribute="centerX" secondItem="kb0-fl-z0n" secondAttribute="centerX" id="acW-8E-Scl"/>
+                            <constraint firstItem="ovm-sQ-Ldv" firstAttribute="leading" secondItem="w1d-Ut-FBq" secondAttribute="leading" constant="15" id="bvS-3B-JaT"/>
+                            <constraint firstItem="ovm-sQ-Ldv" firstAttribute="top" secondItem="Zaz-1h-cUA" secondAttribute="bottom" constant="10" id="iph-ou-16W"/>
+                            <constraint firstItem="w1d-Ut-FBq" firstAttribute="bottom" secondItem="xNh-1t-ekz" secondAttribute="bottom" constant="20" id="r2Q-wP-UyW"/>
+                            <constraint firstItem="w1d-Ut-FBq" firstAttribute="trailing" secondItem="ovm-sQ-Ldv" secondAttribute="trailing" constant="15" id="xiN-4w-Q0q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="w1d-Ut-FBq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TPv-t7-dJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569" y="916"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PqQ-x3-Gpr">
+            <objects>
+                <viewController id="RWq-bB-iQf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1LU-eV-obY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child CPR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5et-xn-b6p">
+                                <rect key="frame" x="126" y="70" width="123.5" height="35"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cQv-8j-IP4">
+                                <rect key="frame" x="15" y="115" width="345" height="477"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">According to the American Heart Association's guidelines Child CPR is administered to any victims ranging from about 1 to about 10 or 14 years of age, or the onset of adolescence as defined by the presence of secondary sex characteristics. Although some of the material in the next lesson may seem repetitive, we strongly recommend that you do not skip ahead as there are crucial distinctions that apply to children's rescue efforts.
+The first thing to remember about Child CPR is this: in children cardiac arrest is rarely caused by heart failure but rather by an injury such as poisoning, smoke inhalation, or head trauma, which causes the breathing to stop first. And since children are more resilient than adults statistics have shown that they tend to respond to CPR much better if administered as soon as possible.
+If the child is unresponsive and you are alone with him, start rescue efforts immediately and perform CPR for at least 1 to 2 minutes before dialing 9-1-1. Before you call an ambulance, immediately check the victim for responsiveness by gently shaking the child and shouting, "Are you okay?" DO NOT shake the child if you suspect he may have suffered a spinal injury.
+If the child is clearly unconscious, remember C-A-B and immediately assist him with circulation.
+ 
+CIRCULATION
+"C" is for CIRCULATION. Check the child's carotid artery for pulse by placing two fingertips and applying slight pressure on his carotid artery for 5 to 10 seconds.
+If don't feel a pulse then the victim's heart is not beating, and you will have to perform chest compressions. 
+ 
+COMPRESSIONS
+When performing chest compressions, proper hand placement is very important. To locate the correct hand position place two fingers at the sternum (the spot where the lower ribs meet) then put the heel of your other hand next to your fingers.
+Place one hand on top of the other and interlace the fingers. Lock your elbows and using your body's weight, compress the victim's chest. The depth of compressions should be at least 2 inches - remember: 2 hands, 2 inches.
+Count aloud as you compress 30 times at the rate of about 3 compressions for every 2 seconds or approximately 100-120 compressions per minute with minimal pauses between compressions.
+Chest compressions will supply blood flow to the heart and the brain but if victim remains unresponsive you will need to check their airway.
+ 
+AIRWAY
+"A" is for AIRWAY. If the victim is unconscious and is unresponsive, you need to make sure that his airway is clear of any obstructions. If you determine that the victim is not breathing, then something may be blocking his air passage. The tongue is the most common airway obstruction in an unconscious person.
+With the victim lying flat on his back, place your hand on his forehead and your other hand under the tip of the chin (Figure 1). Gently tilt the victim's head backward. In this position the weight of the tongue will force it to shift away from the back of the throat, opening the airway (Figure 2).
+If the person is still not breathing on his own after the airway has been cleared, you will have to assist him breathing.
+ 
+BREATHING 
+Note: you may skip this step if performing "compression only" CPR
+"B" is for BREATHING. If the child remains unresponsive and still not breathing on his own, pinch his nose with your fingertips or cover his mouth and nose with your mouth creating a tight seal, and give two breaths (Figure 1).
+Keep in mind that children's lungs have much smaller capacity than those of adults. When ventilating a child, be sure to use shallower breaths and keep an eye on the victim's chest to prevent stomach distention.
+If this happens and the child vomits, turn his head sideways and sweep all obstructions out of the mouth before proceeding.
+ 
+
+Review
+ 
+In case of an emergency you may be the victim's only chance of survival. Until an ambulance arrives and professional assistance is available, you can increase that chance by 40% simply by remembering and effectively administering Cardio Pulmonary Resuscitation.
+1. Check for responsiveness by shouting and shaking the victim. Do not shake or move the victim if you suspect he may have sustained spinal injury.
+2. Call 911.
+3. Remember C-A-B:
+Circulation: if there is no pulse, perform 30 chest compressions at the rate of at least 100/minute - 2 hands, 2 inches.
+Airway: tilt the head back and lift the neck to clear the airway.
+Breathing: pinch the victim's nose and give 2 breaths, watching for the chest to rise with each breath.
+A brief quiz that follows is intended to reinforce what you've learned about Adult CPR and we strongly recommend that you take and pass the test yourself before proceeding to the next section.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lR5-rh-TXk">
+                                <rect key="frame" x="20" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="AbO-fa-eCf"/>
+                                    <constraint firstAttribute="height" constant="36" id="OCO-pG-59K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="eWS-Ah-5dE" kind="show" id="l8q-gS-oci"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXp-bU-K0O">
+                                <rect key="frame" x="270" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="b2b-xX-BfL"/>
+                                    <constraint firstAttribute="height" constant="36" id="bOc-Of-z6K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="bxy-3K-s5i" kind="show" id="6fU-of-5yH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cQv-8j-IP4" firstAttribute="centerX" secondItem="1LU-eV-obY" secondAttribute="centerX" id="7z9-dm-ONR"/>
+                            <constraint firstItem="oQO-IB-pmv" firstAttribute="trailing" secondItem="cXp-bU-K0O" secondAttribute="trailing" constant="20" id="8jm-TP-3hh"/>
+                            <constraint firstItem="oQO-IB-pmv" firstAttribute="bottom" secondItem="cXp-bU-K0O" secondAttribute="bottom" constant="20" id="O8B-VF-i7T"/>
+                            <constraint firstItem="oQO-IB-pmv" firstAttribute="trailing" secondItem="cQv-8j-IP4" secondAttribute="trailing" constant="15" id="Qea-Lf-Aqe"/>
+                            <constraint firstItem="oQO-IB-pmv" firstAttribute="bottom" secondItem="lR5-rh-TXk" secondAttribute="bottom" constant="20" id="T2p-Y0-Lcu"/>
+                            <constraint firstItem="cQv-8j-IP4" firstAttribute="leading" secondItem="oQO-IB-pmv" secondAttribute="leading" constant="15" id="b1m-fC-CbK"/>
+                            <constraint firstItem="oQO-IB-pmv" firstAttribute="bottom" secondItem="cQv-8j-IP4" secondAttribute="bottom" constant="75" id="dUb-xf-jy4"/>
+                            <constraint firstItem="5et-xn-b6p" firstAttribute="top" secondItem="oQO-IB-pmv" secondAttribute="top" constant="50" id="kQA-Fe-4Rb"/>
+                            <constraint firstItem="lR5-rh-TXk" firstAttribute="leading" secondItem="oQO-IB-pmv" secondAttribute="leading" constant="20" id="rD6-9e-acr"/>
+                            <constraint firstItem="5et-xn-b6p" firstAttribute="centerX" secondItem="1LU-eV-obY" secondAttribute="centerX" id="sCN-zd-j3I"/>
+                            <constraint firstItem="cQv-8j-IP4" firstAttribute="top" secondItem="5et-xn-b6p" secondAttribute="bottom" constant="10" id="spY-Ua-pav"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oQO-IB-pmv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GSU-gd-ho1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2332" y="213"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oBD-pr-mbO">
+            <objects>
+                <viewController id="RCb-Fq-D22" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UTB-J7-JyN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How CPR Works" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYA-P0-RLR">
+                                <rect key="frame" x="85" y="70" width="205" height="35"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PZ0-8h-EZ7">
+                                <rect key="frame" x="15" y="115" width="345" height="477"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The air we breathe in travels to our lungs where oxygen is picked up by our blood and then pumped by the heart to our tissue and organs. When a person experiences cardiac arrest - whether due to heart failure in adults and the elderly or an injury such as near drowning, electrocution or severe trauma in a child - the heart goes from a normal beat to an arrhythmic pattern called ventricular fibrillation, and eventually ceases to beat altogether.
+This prevents oxygen from circulating throughout the body, rapidly killing cells and tissue. In essence, Cardio (heart) Pulmonary (lung) Resuscitation (revive, revitalize) serves as an artificial heartbeat and an artificial respirator.
+
+CPR may not save the victim even when performed properly, but if started within 4 minutes of cardiac arrest and defibrillation is provided within 10 minutes, a person has a 40% chance of survival.
+
+ 	The circulatory system
+
+ 
+IMPORTANT AMERICAN HEART ASSOCIATION UPDATES
+
+October 15, 2015: The recommended sequence for a single rescuer has been confirmed: the single rescuer is to initiate chest compressions before giving rescue breaths (C-A-B rather than A-B-C) to reduce delay to first compression. The single rescuer should begin CPR with 30 chest compressions followed by 2 breaths.
+
+October 18, 2010: If a bystander is not trained in CPR, the bystander should provide compression-only CPR (see below) for the adult victim who suddenly collapses, with an emphasis to "push hard and fast" on the center of the chest, or follow the directions of the EMS dispatcher. The rescuer should continue compression-only CPR until an AED is available or first responders can assist the victim. If the trained lay rescuer is able to perform rescue breaths, compressions and breaths should be provided in a ratio of 30 compressions to 2 breaths.
+
+March 2008: The American Heart Association published an advisory statement outlining "hands-only" or "compression-only" CPR which dictates that lay persons who are unable or unwilling to provide rescue breaths may perform hands-only CPR. This updated recommendation does not apply to first responders and/or medical personnel with access to CPR barrier or a mechanical respirator; unwitnessed cardiac arrest, cardiac arrest in children and infants, or cardiac arrest presumed to be of non-cardiac origin (drowning, trauma, airway obstruction, acute respiratory diseases, drug overdose, etc). AHA study concedes that when performed correctly, conventional CPR continues to prove a more effective rescue method for victims of cardiac arrest and as such we will continue to educate our students in ventilation as well as compressions.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2I-0p-t7M">
+                                <rect key="frame" x="270" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="uyL-eq-hV0"/>
+                                    <constraint firstAttribute="width" constant="85" id="xzj-CF-TG6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="fA0-pj-x2A" kind="show" id="zE5-EJ-zJj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ekw-Km-G1O">
+                                <rect key="frame" x="20" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="kH2-1Q-SaT"/>
+                                    <constraint firstAttribute="height" constant="36" id="nl7-xR-jvn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Nxm-o2-s1A" kind="show" id="cw5-am-oos"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9Gm-Z8-JDu" firstAttribute="trailing" secondItem="PZ0-8h-EZ7" secondAttribute="trailing" constant="15" id="1h3-F4-NFN"/>
+                            <constraint firstItem="9Gm-Z8-JDu" firstAttribute="bottom" secondItem="PZ0-8h-EZ7" secondAttribute="bottom" constant="75" id="EEa-qB-NLc"/>
+                            <constraint firstItem="OYA-P0-RLR" firstAttribute="top" secondItem="9Gm-Z8-JDu" secondAttribute="top" constant="50" id="Gfx-f5-fo6"/>
+                            <constraint firstItem="9Gm-Z8-JDu" firstAttribute="bottom" secondItem="Ekw-Km-G1O" secondAttribute="bottom" constant="20" id="RH2-kv-d61"/>
+                            <constraint firstItem="9Gm-Z8-JDu" firstAttribute="bottom" secondItem="W2I-0p-t7M" secondAttribute="bottom" constant="20" id="UQS-n7-nNL"/>
+                            <constraint firstItem="9Gm-Z8-JDu" firstAttribute="trailing" secondItem="W2I-0p-t7M" secondAttribute="trailing" constant="20" id="g6W-EA-mGs"/>
+                            <constraint firstItem="OYA-P0-RLR" firstAttribute="centerX" secondItem="UTB-J7-JyN" secondAttribute="centerX" id="gIZ-g9-lim"/>
+                            <constraint firstItem="Ekw-Km-G1O" firstAttribute="leading" secondItem="9Gm-Z8-JDu" secondAttribute="leading" constant="20" id="h0b-qP-qz2"/>
+                            <constraint firstItem="PZ0-8h-EZ7" firstAttribute="top" secondItem="OYA-P0-RLR" secondAttribute="bottom" constant="10" id="tnS-wy-9QT"/>
+                            <constraint firstItem="PZ0-8h-EZ7" firstAttribute="leading" secondItem="9Gm-Z8-JDu" secondAttribute="leading" constant="15" id="xfg-5c-qa9"/>
+                            <constraint firstItem="PZ0-8h-EZ7" firstAttribute="centerX" secondItem="UTB-J7-JyN" secondAttribute="centerX" id="zac-CN-Wfs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Gm-Z8-JDu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DbJ-zb-Zf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1568.8" y="-485.30734632683664"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s3y-2C-E9e">
+            <objects>
+                <viewController id="fA0-pj-x2A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Av-kT-gsL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dial 9-1-1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xz-ci-vPe">
+                                <rect key="frame" x="125.5" y="70" width="124" height="35"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Cvh-gu-Tsg">
+                                <rect key="frame" x="15" y="115" width="345" height="477"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">It is critical to remember that dialing 911 may be the most important step you can take to save a life.
+ 
+If someone besides you is present, they should dial 911 immediately. If you're alone with the victim, try to call for help prior to starting CPR on an adult and after a minute on a child. Before we learn what to do in an emergency, we must first emphasize what not to do:
+DO NOT leave the victim alone.
+DO NOT try make the victim drink water.
+DO NOT throw water on the victim's face.
+DO NOT prompt the victim into a sitting position.
+DO NOT try to revive the victim by slapping his face.
+ 	Provide operator with:
+1. Your location 
+2. Your phone number 
+3. Type of emergency 
+4. Victim's condition 
+ 
+Always remember to exercise solid common sense! 
+When faced with an emergency situation we may act impulsively and place ourselves in harm's way. Although time should not be wasted, only approach the victim after determining that the scene is safe: always check for any potential hazards before attempting to perform CPR. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7u0-c6-qRl">
+                                <rect key="frame" x="20" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="Pzy-IF-61w"/>
+                                    <constraint firstAttribute="width" constant="85" id="WH6-au-NRv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="c5i-iI-yws"/>
+                                    <constraint firstAttribute="height" constant="36" id="sIS-S9-SJ5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="RCb-Fq-D22" kind="show" id="IzL-Nj-36G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hd-XL-uXt">
+                                <rect key="frame" x="270" y="611" width="85" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="4fg-Jr-CUL"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="dNJ-bg-SMN"/>
+                                    <constraint firstAttribute="width" constant="85" id="ly0-k7-ly0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="oSO-vv-XCJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="eWS-Ah-5dE" kind="show" id="ik9-DS-3GY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Kyz-vB-1ib" firstAttribute="bottom" secondItem="Cvh-gu-Tsg" secondAttribute="bottom" constant="75" id="05Q-BA-B2M"/>
+                            <constraint firstItem="3xz-ci-vPe" firstAttribute="top" secondItem="Kyz-vB-1ib" secondAttribute="top" constant="50" id="AYD-Ov-iFK"/>
+                            <constraint firstItem="3xz-ci-vPe" firstAttribute="centerX" secondItem="8Av-kT-gsL" secondAttribute="centerX" id="CUu-dG-Cxm"/>
+                            <constraint firstItem="7u0-c6-qRl" firstAttribute="leading" secondItem="Kyz-vB-1ib" secondAttribute="leading" constant="20" id="QTi-vP-cfR"/>
+                            <constraint firstItem="Kyz-vB-1ib" firstAttribute="trailing" secondItem="3hd-XL-uXt" secondAttribute="trailing" constant="20" id="UqE-R4-CaJ"/>
+                            <constraint firstItem="Cvh-gu-Tsg" firstAttribute="leading" secondItem="Kyz-vB-1ib" secondAttribute="leading" constant="15" id="bvT-9K-OXy"/>
+                            <constraint firstItem="Kyz-vB-1ib" firstAttribute="trailing" secondItem="Cvh-gu-Tsg" secondAttribute="trailing" constant="15" id="ekp-PM-dcw"/>
+                            <constraint firstItem="Kyz-vB-1ib" firstAttribute="bottom" secondItem="7u0-c6-qRl" secondAttribute="bottom" constant="20" id="hKn-Ol-kDK"/>
+                            <constraint firstItem="Cvh-gu-Tsg" firstAttribute="top" secondItem="3xz-ci-vPe" secondAttribute="bottom" constant="10" id="jk2-tT-xdf"/>
+                            <constraint firstItem="Kyz-vB-1ib" firstAttribute="bottom" secondItem="3hd-XL-uXt" secondAttribute="bottom" constant="20" id="s2c-fl-OJA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kyz-vB-1ib"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TCa-39-o9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2332" y="-485"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cpr.png" width="100" height="100"/>
+        <image name="first aid.png" width="64" height="64"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="H3b-1h-Xdn"/>
+        <segue reference="ILA-gU-sSb"/>
+        <segue reference="uIm-ZO-PHW"/>
+        <segue reference="6xq-HC-nJs"/>
+        <segue reference="yfi-eB-L7j"/>
+        <segue reference="x4p-yt-iq0"/>
+        <segue reference="Ady-sk-8Cc"/>
+    </inferredMetricsTieBreakers>
+</document>
