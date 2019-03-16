@@ -1,0 +1,1003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7C88711B6460B5ED51EC69E81A14FE /* FormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AE07EC09DF0A0222B828F0110686DE /* FormElement.swift */; };
+		124A047E25271655A709E26F8FDD5BE1 /* Evaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49796846D7023B6FE722096F05F3BC42 /* Evaluator.swift */; };
+		162E235E6DCE36B3ECA6C5F6996E214C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353C7EAAB2DCCB4166955D1F016296B /* Connection.swift */; };
+		1A1831DD1F4F02BDDC9094D794CCE57F /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049DA62C981D7D8B1F9AA7F2E8E13327 /* Selector.swift */; };
+		1A6DAA4BC9B39054A4194C0A889CAA21 /* SimpleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9B9738C02AF58D1D5DE8834759899 /* SimpleDictionary.swift */; };
+		1AA72667F8D7322793601A047990B2AD /* Pods-Celiac NowTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B8A9B2F1B5611A5F3A730BBC515CB3 /* Pods-Celiac NowTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CDC08B83A1817A77C92A49360DCE957 /* Collector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF6771C707E52E16626CEC16E3C3B8 /* Collector.swift */; };
+		2631AB6E2D89081D9971412B7EC7A2ED /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B345D614BE0463ECFFCDAF8AE1D959 /* Comment.swift */; };
+		26628266D2213F35EAA59604A08DD5FD /* CombiningEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC000E9275D38311D281B82C5AC7DF99 /* CombiningEvaluator.swift */; };
+		2753AC420CE5AE81AD3E6466EAF86539 /* SerializationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7F2AF32CB0CBEDD6D5F4B84B632F5A /* SerializationException.swift */; };
+		2C0CA0F24EFEF1359BCC3AFCBDAA67EE /* TokeniserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E019DBDCCCD70EFC6949EAE2EFD465 /* TokeniserState.swift */; };
+		387D273992A82E29AA82DC481C9D4638 /* HtmlTreeBuilderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E999AE7B211A8286E727F84405191 /* HtmlTreeBuilderState.swift */; };
+		3B78BD67116ED4B4F8C7AC8461693FFE /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1722C7DA6C7AADB6E9D3FF2DAC741D /* ParseError.swift */; };
+		3BE0144AB569AAF003D8D75D8E1005A5 /* TokenQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E36ED5E17B02508428258D46A39FAE /* TokenQueue.swift */; };
+		3C8E68529462656ADD46C09A72AE969B /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDABBCE4809A2F836AA605B7E1B11C /* Token.swift */; };
+		415CFFB0C9577AAEBA6A9D159BB00BBB /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF0F75FB8E7DB14833337F209943C6 /* Attribute.swift */; };
+		42F54A9303080CF258E119258227DB60 /* CharacterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8948246B3834F8A3FEB030C74E3A2AB5 /* CharacterExt.swift */; };
+		45D01A76B0BBCC1302272AB7D8DE6EB5 /* SwiftSoup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3B4929A9DB40274F47C62A6288D7F7 /* SwiftSoup-dummy.m */; };
+		497C5CB41CF5B219FCDC0945FDE749A0 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376FAE2C865C86BA8BCA7E9FC980FD4 /* Attributes.swift */; };
+		49FD17D0F4DAE6DD3BC4404533BE24D6 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E92ECF1E721371A67F4871B34E6820 /* Pattern.swift */; };
+		4BBBFFED2A7E7ED87A9E84DEA4096AD0 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ACA67A55E4015D418EE108533FFE7F /* OrderedDictionary.swift */; };
+		503E6F6E64F9ED1F975D6A2B0FB7BE48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		54C80E9D259E92DCB502462D3C9598F3 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F559860F6D0AAE454911A1EF3C0B668B /* Parser.swift */; };
+		5802600B4CD07E297BF64D6F87763189 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7144D15083381AAD10E032BFC539087D /* Node.swift */; };
+		5E9B1612588F919383759198E606B582 /* SwiftSoup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0E2E1E5641AB6B4DAB08F044186C3 /* SwiftSoup.swift */; };
+		609E3831E09DB6A77AF8A029B2F7534A /* ParseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC1C8CEA4EE1B55C08F9562A8E8307 /* ParseSettings.swift */; };
+		68C162A641A23179DFD3A32F7F769FF6 /* ParseErrorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF72B46DECD390354841E0957556D49 /* ParseErrorList.swift */; };
+		6EA063F3A605F9E6CACFE93EDF45A6CF /* Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DEA4C6C21E89636AA601430CFF5504 /* Cleaner.swift */; };
+		6EAA6336DD1BA5D648F53C481CE92852 /* NodeTraversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F0251E1CBA4811918382B6D98DC5A /* NodeTraversor.swift */; };
+		710009FFC9A32C991C49D115BC06AF90 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E39FD18511DFB98B97795AF070BAE8 /* Element.swift */; };
+		71142771FC2706005CB384C45C0BAE44 /* UnicodeScalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EEA325686C991085438AA5B69502C /* UnicodeScalar.swift */; };
+		77EF27BB55BA068D05DE7ADC005F7EA3 /* StructuralEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB49D29F5DBB2E4E7C01BF9B286B42 /* StructuralEvaluator.swift */; };
+		7E8F0A0663B391C77D9111EF04F5B2A9 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6C27F273357660198C2275EDB9B3F /* Elements.swift */; };
+		817CBB212A801EF12C0176E9DF57072C /* CharacterReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773A4068A9764EE8D86DF4EC7366AAC /* CharacterReader.swift */; };
+		846077030205CF405CFE3D640478F131 /* XmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29168DA5AF77F67441271215C9DC6E /* XmlTreeBuilder.swift */; };
+		8749CAEFCC3F6E7460BD0F26D902CEB1 /* DataNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC1B26DF1845449C7B42D5A166B937 /* DataNode.swift */; };
+		88317E36C2EF8FD15E20FF903FB25A45 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484565425B7A00B867BFA9497B1BEC2C /* Document.swift */; };
+		8E606DFD8613A123EFC6ACD6B6C760FC /* HttpStatusException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D90FA8A6E0EE945BE59B43E11F1991 /* HttpStatusException.swift */; };
+		93BE6B65D655998BD4319440C3A714F9 /* XmlDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268ADCD2947926FB1316F8C94FEFA5A8 /* XmlDeclaration.swift */; };
+		96A16AAA75B4FA24A61185DB4D8BC416 /* Tokeniser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC2EF2D2470B5A55A2C5462E28A9246 /* Tokeniser.swift */; };
+		98BBC24BC9D6030A05B1A21DF6EF0AB1 /* DataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171FA64A1D37689A75BB082317E6E65 /* DataUtil.swift */; };
+		9AD6AEA3FF61B9B5C039B720CDB73E6C /* BooleanAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF631AD5246CE61C5DEFD7C3E3CD6B7 /* BooleanAttribute.swift */; };
+		9F483172ADCE3ED4ECF564897FA9A7FF /* Pods-Celiac Now-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C22A56705BD0F1FCEE55C45BEB8BFA0 /* Pods-Celiac Now-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C1DEED3A92D24587A2BB8B997DB3C6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E478CFFA3AD51798EFA5D2B48C5E5 /* String.swift */; };
+		AE19054DE9D107F5852B9DBCEE4C0318 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E94E3D85C69197A8639760C6AD6133 /* StreamReader.swift */; };
+		B622744A7A22045C4192230EACBFFD17 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98DEADFC55406419E8F91EAEA86E8F /* Tag.swift */; };
+		BD3AD6A7382162ACBE931170CC313591 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEE42EAA661E6389FF98A8F7258F4A /* QueryParser.swift */; };
+		C9B0C07F4BBAABCA1A08E53525E6D827 /* TreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9301E32BA67B6E5429D48C0AB38851AE /* TreeBuilder.swift */; };
+		CC0DBEAE1F59B4578855F6CF95C27D2A /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35D8D6D3BC418C508B79C61D6BC9615 /* Exception.swift */; };
+		CC34E380ABB28C9EAF1FDB95E388531E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CFE2193EC53FCACF68E64F7C4D859273 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58D58E2454CF9D510F70E0FF2A412E7 /* StringUtil.swift */; };
+		D07DB01676F245A54ACB292C395B6BB6 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748F4905B4FC87B2F3D346E5B84B616 /* Validate.swift */; };
+		D3F66CA2A07A27A71E470AA7ECEB40E5 /* Pods-Celiac Now-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6C488960331BA85C9740292A43A1D /* Pods-Celiac Now-dummy.m */; };
+		D5A7967B806165051CE140994E4F7E74 /* Whitelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22288D13FA0694E7A5E908C1CC9DE5BF /* Whitelist.swift */; };
+		D828D2648BD498A36BF802EF3564C7CE /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E4622C66FF5ECF8A9CE1702E69CEB /* TextNode.swift */; };
+		D8448AD506FDD6450B4B5BD5EA662E1C /* SwiftSoup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CEC747D2F43C18F7B7685DEEF8869B /* SwiftSoup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA006C8BA8E2471D8EB9CD4B9E2F0971 /* StringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100EBE612516CD2A52C839A5B99AFD1 /* StringBuilder.swift */; };
+		DE01BC19E8B5EBA07535CDE0DA9A2FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E182762847E07E6615A327DF6C2285B2 /* NodeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA4EB8183ACC0A1C56FAB0D1003783 /* NodeVisitor.swift */; };
+		E2D3F9E121C79DED0A564076E43CFA9E /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC1F45FA2EFC6FD203B16A40D787A7 /* Entities.swift */; };
+		E88D05CA8E24E8B4EF4FAC7267120BD7 /* HtmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474D4B15BF04A79EDF6D540A62342C7 /* HtmlTreeBuilder.swift */; };
+		E934F41460BE7567B9AC9D843730F027 /* Pods-Celiac NowTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3232D9552AE3472517BD4CAC64FA2751 /* Pods-Celiac NowTests-dummy.m */; };
+		F7204E37645D860A52456BF57B210973 /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD297727E87AF4BEBB6DE15799DB2903 /* DocumentType.swift */; };
+		FA7DB551C2BEC8B641D8F6B14FC49BE5 /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D54DB54E3520B11C07EFA4EE4F3031 /* ArrayExt.swift */; };
+		FB2AE5564543CBF32C8BF6A9BD73F31D /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD3F1F6B0CD6E7482B19ECFAABE244 /* OrderedSet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF03043BE174CB1E16C24C710B1DF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABC6E19C258A11D66D32C9EB95CFEAD;
+			remoteInfo = "Pods-Celiac Now";
+		};
+		EFE56CFECDF3A91DEA23180E4A4E00E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678ABB31FB48D3052995A16EEE2CA342;
+			remoteInfo = SwiftSoup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B345D614BE0463ECFFCDAF8AE1D959 /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Sources/Comment.swift; sourceTree = "<group>"; };
+		024F0251E1CBA4811918382B6D98DC5A /* NodeTraversor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeTraversor.swift; path = Sources/NodeTraversor.swift; sourceTree = "<group>"; };
+		0353C7EAAB2DCCB4166955D1F016296B /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/Connection.swift; sourceTree = "<group>"; };
+		03C50F525BF1C5B4A4B906FFA70DF283 /* Pods-Celiac Now-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Celiac Now-acknowledgements.plist"; sourceTree = "<group>"; };
+		049DA62C981D7D8B1F9AA7F2E8E13327 /* Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = Sources/Selector.swift; sourceTree = "<group>"; };
+		04EC990E337A28336FA56CA30FAD8768 /* Pods-Celiac Now.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Celiac Now.debug.xcconfig"; sourceTree = "<group>"; };
+		0A29168DA5AF77F67441271215C9DC6E /* XmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTreeBuilder.swift; path = Sources/XmlTreeBuilder.swift; sourceTree = "<group>"; };
+		13CEC747D2F43C18F7B7685DEEF8869B /* SwiftSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-umbrella.h"; sourceTree = "<group>"; };
+		152E999AE7B211A8286E727F84405191 /* HtmlTreeBuilderState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilderState.swift; path = Sources/HtmlTreeBuilderState.swift; sourceTree = "<group>"; };
+		1748F4905B4FC87B2F3D346E5B84B616 /* Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validate.swift; path = Sources/Validate.swift; sourceTree = "<group>"; };
+		1773A4068A9764EE8D86DF4EC7366AAC /* CharacterReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterReader.swift; path = Sources/CharacterReader.swift; sourceTree = "<group>"; };
+		1DF72B46DECD390354841E0957556D49 /* ParseErrorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseErrorList.swift; path = Sources/ParseErrorList.swift; sourceTree = "<group>"; };
+		22288D13FA0694E7A5E908C1CC9DE5BF /* Whitelist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Whitelist.swift; path = Sources/Whitelist.swift; sourceTree = "<group>"; };
+		22E36ED5E17B02508428258D46A39FAE /* TokenQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenQueue.swift; path = Sources/TokenQueue.swift; sourceTree = "<group>"; };
+		268ADCD2947926FB1316F8C94FEFA5A8 /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
+		2BBF52F96FC25C167FDEB5BD3675F6E6 /* Pods_Celiac_NowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Celiac_NowTests.framework; path = "Pods-Celiac NowTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3232D9552AE3472517BD4CAC64FA2751 /* Pods-Celiac NowTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Celiac NowTests-dummy.m"; sourceTree = "<group>"; };
+		3AC2EF2D2470B5A55A2C5462E28A9246 /* Tokeniser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokeniser.swift; path = Sources/Tokeniser.swift; sourceTree = "<group>"; };
+		3AD21A3A8F872AD18286DCE935B5FDFD /* Pods-Celiac Now.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Celiac Now.modulemap"; sourceTree = "<group>"; };
+		3AFDAC441D3B5C683ADD685F8FB8E7FA /* Pods-Celiac Now-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Celiac Now-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C22A56705BD0F1FCEE55C45BEB8BFA0 /* Pods-Celiac Now-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Celiac Now-umbrella.h"; sourceTree = "<group>"; };
+		40D6C27F273357660198C2275EDB9B3F /* Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Elements.swift; path = Sources/Elements.swift; sourceTree = "<group>"; };
+		40F9492DEB144BE8A49B8418FB595A3B /* Pods-Celiac Now-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Celiac Now-Info.plist"; sourceTree = "<group>"; };
+		4171FA64A1D37689A75BB082317E6E65 /* DataUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataUtil.swift; path = Sources/DataUtil.swift; sourceTree = "<group>"; };
+		42D54DB54E3520B11C07EFA4EE4F3031 /* ArrayExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExt.swift; path = Sources/ArrayExt.swift; sourceTree = "<group>"; };
+		484565425B7A00B867BFA9497B1BEC2C /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
+		48B2359CA3296311D2AA19E659CCDCA9 /* Pods-Celiac NowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Celiac NowTests.release.xcconfig"; sourceTree = "<group>"; };
+		48FD3F1F6B0CD6E7482B19ECFAABE244 /* OrderedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = Sources/OrderedSet.swift; sourceTree = "<group>"; };
+		49796846D7023B6FE722096F05F3BC42 /* Evaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluator.swift; path = Sources/Evaluator.swift; sourceTree = "<group>"; };
+		49ACA67A55E4015D418EE108533FFE7F /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = Sources/OrderedDictionary.swift; sourceTree = "<group>"; };
+		4CB6C488960331BA85C9740292A43A1D /* Pods-Celiac Now-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Celiac Now-dummy.m"; sourceTree = "<group>"; };
+		4EDF97CF64A1832F1B23803F1915F8AA /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSoup.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE0E2E1E5641AB6B4DAB08F044186C3 /* SwiftSoup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSoup.swift; path = Sources/SwiftSoup.swift; sourceTree = "<group>"; };
+		50286864F87590520DF0BD964EAB67C5 /* SwiftSoup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSoup-Info.plist"; sourceTree = "<group>"; };
+		510ECDD2B401C6CA16E0127E63D8729E /* Pods-Celiac Now-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Celiac Now-frameworks.sh"; sourceTree = "<group>"; };
+		53EA4EB8183ACC0A1C56FAB0D1003783 /* NodeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeVisitor.swift; path = Sources/NodeVisitor.swift; sourceTree = "<group>"; };
+		58F9B9738C02AF58D1D5DE8834759899 /* SimpleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleDictionary.swift; path = Sources/SimpleDictionary.swift; sourceTree = "<group>"; };
+		5A7F2AF32CB0CBEDD6D5F4B84B632F5A /* SerializationException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerializationException.swift; path = Sources/SerializationException.swift; sourceTree = "<group>"; };
+		6C98DEADFC55406419E8F91EAEA86E8F /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Tag.swift; sourceTree = "<group>"; };
+		6ECF0F75FB8E7DB14833337F209943C6 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Sources/Attribute.swift; sourceTree = "<group>"; };
+		7044172686ACA62539A7CB17656B81DB /* Pods-Celiac NowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Celiac NowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70547249272C704CB0E4384D7A37F6D9 /* Pods-Celiac NowTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Celiac NowTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7144D15083381AAD10E032BFC539087D /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		7761757ACAC9BDB6BF11CE6C00DD6BEA /* SwiftSoup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSoup.xcconfig; sourceTree = "<group>"; };
+		78E39FD18511DFB98B97795AF070BAE8 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
+		7FBEE42EAA661E6389FF98A8F7258F4A /* QueryParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryParser.swift; path = Sources/QueryParser.swift; sourceTree = "<group>"; };
+		80CA51ECC4A32FD824BF403888AEE5E1 /* Pods_Celiac_Now.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Celiac_Now.framework; path = "Pods-Celiac Now.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8100EBE612516CD2A52C839A5B99AFD1 /* StringBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBuilder.swift; path = Sources/StringBuilder.swift; sourceTree = "<group>"; };
+		83741758CCD8C1A985BE4796C3300B59 /* Pods-Celiac Now.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Celiac Now.release.xcconfig"; sourceTree = "<group>"; };
+		884E4622C66FF5ECF8A9CE1702E69CEB /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Sources/TextNode.swift; sourceTree = "<group>"; };
+		8948246B3834F8A3FEB030C74E3A2AB5 /* CharacterExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExt.swift; path = Sources/CharacterExt.swift; sourceTree = "<group>"; };
+		8EDDABBCE4809A2F836AA605B7E1B11C /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Token.swift; sourceTree = "<group>"; };
+		9301E32BA67B6E5429D48C0AB38851AE /* TreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TreeBuilder.swift; path = Sources/TreeBuilder.swift; sourceTree = "<group>"; };
+		936189A1CF2581301C29248DD3BA1929 /* Pods-Celiac NowTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Celiac NowTests-Info.plist"; sourceTree = "<group>"; };
+		94DC1B26DF1845449C7B42D5A166B937 /* DataNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataNode.swift; path = Sources/DataNode.swift; sourceTree = "<group>"; };
+		94EC1C8CEA4EE1B55C08F9562A8E8307 /* ParseSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseSettings.swift; path = Sources/ParseSettings.swift; sourceTree = "<group>"; };
+		99D90FA8A6E0EE945BE59B43E11F1991 /* HttpStatusException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpStatusException.swift; path = Sources/HttpStatusException.swift; sourceTree = "<group>"; };
+		9D7E478CFFA3AD51798EFA5D2B48C5E5 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/String.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A118D4E20CC58EEC6F23918E1E30A1A5 /* SwiftSoup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSoup.modulemap; sourceTree = "<group>"; };
+		A9DC1F45FA2EFC6FD203B16A40D787A7 /* Entities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entities.swift; path = Sources/Entities.swift; sourceTree = "<group>"; };
+		AD297727E87AF4BEBB6DE15799DB2903 /* DocumentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentType.swift; path = Sources/DocumentType.swift; sourceTree = "<group>"; };
+		B35D8D6D3BC418C508B79C61D6BC9615 /* Exception.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exception.swift; path = Sources/Exception.swift; sourceTree = "<group>"; };
+		C4DF6771C707E52E16626CEC16E3C3B8 /* Collector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collector.swift; path = Sources/Collector.swift; sourceTree = "<group>"; };
+		C6E94E3D85C69197A8639760C6AD6133 /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = Sources/StreamReader.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC1722C7DA6C7AADB6E9D3FF2DAC741D /* ParseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseError.swift; path = Sources/ParseError.swift; sourceTree = "<group>"; };
+		D1B8A9B2F1B5611A5F3A730BBC515CB3 /* Pods-Celiac NowTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Celiac NowTests-umbrella.h"; sourceTree = "<group>"; };
+		D4FF24C5844B1B3F21BA8A8832C389CC /* Pods-Celiac NowTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Celiac NowTests.modulemap"; sourceTree = "<group>"; };
+		D6E92ECF1E721371A67F4871B34E6820 /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
+		D96EEA325686C991085438AA5B69502C /* UnicodeScalar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeScalar.swift; path = Sources/UnicodeScalar.swift; sourceTree = "<group>"; };
+		E2DEA4C6C21E89636AA601430CFF5504 /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
+		E376FAE2C865C86BA8BCA7E9FC980FD4 /* Attributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attributes.swift; path = Sources/Attributes.swift; sourceTree = "<group>"; };
+		E3E019DBDCCCD70EFC6949EAE2EFD465 /* TokeniserState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokeniserState.swift; path = Sources/TokeniserState.swift; sourceTree = "<group>"; };
+		E58D58E2454CF9D510F70E0FF2A412E7 /* StringUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = Sources/StringUtil.swift; sourceTree = "<group>"; };
+		E5AE07EC09DF0A0222B828F0110686DE /* FormElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElement.swift; path = Sources/FormElement.swift; sourceTree = "<group>"; };
+		EAF631AD5246CE61C5DEFD7C3E3CD6B7 /* BooleanAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanAttribute.swift; path = Sources/BooleanAttribute.swift; sourceTree = "<group>"; };
+		EB3B4929A9DB40274F47C62A6288D7F7 /* SwiftSoup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSoup-dummy.m"; sourceTree = "<group>"; };
+		EBCB49D29F5DBB2E4E7C01BF9B286B42 /* StructuralEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StructuralEvaluator.swift; path = Sources/StructuralEvaluator.swift; sourceTree = "<group>"; };
+		EC000E9275D38311D281B82C5AC7DF99 /* CombiningEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombiningEvaluator.swift; path = Sources/CombiningEvaluator.swift; sourceTree = "<group>"; };
+		F474D4B15BF04A79EDF6D540A62342C7 /* HtmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilder.swift; path = Sources/HtmlTreeBuilder.swift; sourceTree = "<group>"; };
+		F559860F6D0AAE454911A1EF3C0B668B /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
+		FED3C8E30902906C152962B03898D4EE /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
+		FEE475B4F4030F15EABB3D24B22B920B /* Pods-Celiac NowTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Celiac NowTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AED97D2FECF75569E7E32D27C0C7E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34E380ABB28C9EAF1FDB95E388531E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FC6BF1D8C7CB10B0A4377CFC46642D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE01BC19E8B5EBA07535CDE0DA9A2FEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA3D1F1E96FA89085723C2E5C7651D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503E6F6E64F9ED1F975D6A2B0FB7BE48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042F503D406B868093815856A12B6154 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				948E6714EF4FD11053686689ACBF1724 /* Pods-Celiac Now */,
+				E7238CE1805BFEB663E1DCB12218E705 /* Pods-Celiac NowTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		345771DD3AC8170204BD083373D4FF5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A118D4E20CC58EEC6F23918E1E30A1A5 /* SwiftSoup.modulemap */,
+				7761757ACAC9BDB6BF11CE6C00DD6BEA /* SwiftSoup.xcconfig */,
+				EB3B4929A9DB40274F47C62A6288D7F7 /* SwiftSoup-dummy.m */,
+				50286864F87590520DF0BD964EAB67C5 /* SwiftSoup-Info.plist */,
+				FED3C8E30902906C152962B03898D4EE /* SwiftSoup-prefix.pch */,
+				13CEC747D2F43C18F7B7685DEEF8869B /* SwiftSoup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSoup";
+			sourceTree = "<group>";
+		};
+		948E6714EF4FD11053686689ACBF1724 /* Pods-Celiac Now */ = {
+			isa = PBXGroup;
+			children = (
+				3AD21A3A8F872AD18286DCE935B5FDFD /* Pods-Celiac Now.modulemap */,
+				3AFDAC441D3B5C683ADD685F8FB8E7FA /* Pods-Celiac Now-acknowledgements.markdown */,
+				03C50F525BF1C5B4A4B906FFA70DF283 /* Pods-Celiac Now-acknowledgements.plist */,
+				4CB6C488960331BA85C9740292A43A1D /* Pods-Celiac Now-dummy.m */,
+				510ECDD2B401C6CA16E0127E63D8729E /* Pods-Celiac Now-frameworks.sh */,
+				40F9492DEB144BE8A49B8418FB595A3B /* Pods-Celiac Now-Info.plist */,
+				3C22A56705BD0F1FCEE55C45BEB8BFA0 /* Pods-Celiac Now-umbrella.h */,
+				04EC990E337A28336FA56CA30FAD8768 /* Pods-Celiac Now.debug.xcconfig */,
+				83741758CCD8C1A985BE4796C3300B59 /* Pods-Celiac Now.release.xcconfig */,
+			);
+			name = "Pods-Celiac Now";
+			path = "Target Support Files/Pods-Celiac Now";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B67502FE5D481268EEE7772D16B9AFC4 /* SwiftSoup */ = {
+			isa = PBXGroup;
+			children = (
+				42D54DB54E3520B11C07EFA4EE4F3031 /* ArrayExt.swift */,
+				6ECF0F75FB8E7DB14833337F209943C6 /* Attribute.swift */,
+				E376FAE2C865C86BA8BCA7E9FC980FD4 /* Attributes.swift */,
+				EAF631AD5246CE61C5DEFD7C3E3CD6B7 /* BooleanAttribute.swift */,
+				8948246B3834F8A3FEB030C74E3A2AB5 /* CharacterExt.swift */,
+				1773A4068A9764EE8D86DF4EC7366AAC /* CharacterReader.swift */,
+				E2DEA4C6C21E89636AA601430CFF5504 /* Cleaner.swift */,
+				C4DF6771C707E52E16626CEC16E3C3B8 /* Collector.swift */,
+				EC000E9275D38311D281B82C5AC7DF99 /* CombiningEvaluator.swift */,
+				01B345D614BE0463ECFFCDAF8AE1D959 /* Comment.swift */,
+				0353C7EAAB2DCCB4166955D1F016296B /* Connection.swift */,
+				94DC1B26DF1845449C7B42D5A166B937 /* DataNode.swift */,
+				4171FA64A1D37689A75BB082317E6E65 /* DataUtil.swift */,
+				484565425B7A00B867BFA9497B1BEC2C /* Document.swift */,
+				AD297727E87AF4BEBB6DE15799DB2903 /* DocumentType.swift */,
+				78E39FD18511DFB98B97795AF070BAE8 /* Element.swift */,
+				40D6C27F273357660198C2275EDB9B3F /* Elements.swift */,
+				A9DC1F45FA2EFC6FD203B16A40D787A7 /* Entities.swift */,
+				49796846D7023B6FE722096F05F3BC42 /* Evaluator.swift */,
+				B35D8D6D3BC418C508B79C61D6BC9615 /* Exception.swift */,
+				E5AE07EC09DF0A0222B828F0110686DE /* FormElement.swift */,
+				F474D4B15BF04A79EDF6D540A62342C7 /* HtmlTreeBuilder.swift */,
+				152E999AE7B211A8286E727F84405191 /* HtmlTreeBuilderState.swift */,
+				99D90FA8A6E0EE945BE59B43E11F1991 /* HttpStatusException.swift */,
+				7144D15083381AAD10E032BFC539087D /* Node.swift */,
+				024F0251E1CBA4811918382B6D98DC5A /* NodeTraversor.swift */,
+				53EA4EB8183ACC0A1C56FAB0D1003783 /* NodeVisitor.swift */,
+				49ACA67A55E4015D418EE108533FFE7F /* OrderedDictionary.swift */,
+				48FD3F1F6B0CD6E7482B19ECFAABE244 /* OrderedSet.swift */,
+				CC1722C7DA6C7AADB6E9D3FF2DAC741D /* ParseError.swift */,
+				1DF72B46DECD390354841E0957556D49 /* ParseErrorList.swift */,
+				F559860F6D0AAE454911A1EF3C0B668B /* Parser.swift */,
+				94EC1C8CEA4EE1B55C08F9562A8E8307 /* ParseSettings.swift */,
+				D6E92ECF1E721371A67F4871B34E6820 /* Pattern.swift */,
+				7FBEE42EAA661E6389FF98A8F7258F4A /* QueryParser.swift */,
+				049DA62C981D7D8B1F9AA7F2E8E13327 /* Selector.swift */,
+				5A7F2AF32CB0CBEDD6D5F4B84B632F5A /* SerializationException.swift */,
+				58F9B9738C02AF58D1D5DE8834759899 /* SimpleDictionary.swift */,
+				C6E94E3D85C69197A8639760C6AD6133 /* StreamReader.swift */,
+				9D7E478CFFA3AD51798EFA5D2B48C5E5 /* String.swift */,
+				8100EBE612516CD2A52C839A5B99AFD1 /* StringBuilder.swift */,
+				E58D58E2454CF9D510F70E0FF2A412E7 /* StringUtil.swift */,
+				EBCB49D29F5DBB2E4E7C01BF9B286B42 /* StructuralEvaluator.swift */,
+				4FE0E2E1E5641AB6B4DAB08F044186C3 /* SwiftSoup.swift */,
+				6C98DEADFC55406419E8F91EAEA86E8F /* Tag.swift */,
+				884E4622C66FF5ECF8A9CE1702E69CEB /* TextNode.swift */,
+				8EDDABBCE4809A2F836AA605B7E1B11C /* Token.swift */,
+				3AC2EF2D2470B5A55A2C5462E28A9246 /* Tokeniser.swift */,
+				E3E019DBDCCCD70EFC6949EAE2EFD465 /* TokeniserState.swift */,
+				22E36ED5E17B02508428258D46A39FAE /* TokenQueue.swift */,
+				9301E32BA67B6E5429D48C0AB38851AE /* TreeBuilder.swift */,
+				D96EEA325686C991085438AA5B69502C /* UnicodeScalar.swift */,
+				1748F4905B4FC87B2F3D346E5B84B616 /* Validate.swift */,
+				22288D13FA0694E7A5E908C1CC9DE5BF /* Whitelist.swift */,
+				268ADCD2947926FB1316F8C94FEFA5A8 /* XmlDeclaration.swift */,
+				0A29168DA5AF77F67441271215C9DC6E /* XmlTreeBuilder.swift */,
+				345771DD3AC8170204BD083373D4FF5C /* Support Files */,
+			);
+			name = SwiftSoup;
+			path = SwiftSoup;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CFB4ABEAEAFCDB4587FF6BE5A683746C /* Pods */,
+				D845301CDAA7C58187BF5B670A5E4A36 /* Products */,
+				042F503D406B868093815856A12B6154 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB4ABEAEAFCDB4587FF6BE5A683746C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B67502FE5D481268EEE7772D16B9AFC4 /* SwiftSoup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D845301CDAA7C58187BF5B670A5E4A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CA51ECC4A32FD824BF403888AEE5E1 /* Pods_Celiac_Now.framework */,
+				2BBF52F96FC25C167FDEB5BD3675F6E6 /* Pods_Celiac_NowTests.framework */,
+				4EDF97CF64A1832F1B23803F1915F8AA /* SwiftSoup.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7238CE1805BFEB663E1DCB12218E705 /* Pods-Celiac NowTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4FF24C5844B1B3F21BA8A8832C389CC /* Pods-Celiac NowTests.modulemap */,
+				FEE475B4F4030F15EABB3D24B22B920B /* Pods-Celiac NowTests-acknowledgements.markdown */,
+				70547249272C704CB0E4384D7A37F6D9 /* Pods-Celiac NowTests-acknowledgements.plist */,
+				3232D9552AE3472517BD4CAC64FA2751 /* Pods-Celiac NowTests-dummy.m */,
+				936189A1CF2581301C29248DD3BA1929 /* Pods-Celiac NowTests-Info.plist */,
+				D1B8A9B2F1B5611A5F3A730BBC515CB3 /* Pods-Celiac NowTests-umbrella.h */,
+				7044172686ACA62539A7CB17656B81DB /* Pods-Celiac NowTests.debug.xcconfig */,
+				48B2359CA3296311D2AA19E659CCDCA9 /* Pods-Celiac NowTests.release.xcconfig */,
+			);
+			name = "Pods-Celiac NowTests";
+			path = "Target Support Files/Pods-Celiac NowTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43C57B4F4E2576FC4E06D19189A03087 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8448AD506FDD6450B4B5BD5EA662E1C /* SwiftSoup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2770325A687AB368B84313AAE98795 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA72667F8D7322793601A047990B2AD /* Pods-Celiac NowTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2EBA9DB4979102DB240F7ADEB91B9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F483172ADCE3ED4ECF564897FA9A7FF /* Pods-Celiac Now-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		678ABB31FB48D3052995A16EEE2CA342 /* SwiftSoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD90EC8A06068ED3F705132690246AD /* Build configuration list for PBXNativeTarget "SwiftSoup" */;
+			buildPhases = (
+				43C57B4F4E2576FC4E06D19189A03087 /* Headers */,
+				64E6DABFA14E6EF362E6C46FC364FED4 /* Sources */,
+				9DA3D1F1E96FA89085723C2E5C7651D3 /* Frameworks */,
+				0E9D2F0097C6E999337ABDD86A417ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSoup;
+			productName = SwiftSoup;
+			productReference = 4EDF97CF64A1832F1B23803F1915F8AA /* SwiftSoup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CA717913DD72A57C092BCA270D1D123 /* Pods-Celiac NowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B246C013B2155AA2BFCF293308727784 /* Build configuration list for PBXNativeTarget "Pods-Celiac NowTests" */;
+			buildPhases = (
+				6E2770325A687AB368B84313AAE98795 /* Headers */,
+				0EE692B5A5C9349D3E6B62A8D75321E7 /* Sources */,
+				29FC6BF1D8C7CB10B0A4377CFC46642D /* Frameworks */,
+				8DB665C32ECA59FEBA45C984F4ED866F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85DB5324D1C31E7DA744E73D9E35BB16 /* PBXTargetDependency */,
+			);
+			name = "Pods-Celiac NowTests";
+			productName = "Pods-Celiac NowTests";
+			productReference = 2BBF52F96FC25C167FDEB5BD3675F6E6 /* Pods_Celiac_NowTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BABC6E19C258A11D66D32C9EB95CFEAD /* Pods-Celiac Now */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4A5205529D72A1287AD81A9D671862 /* Build configuration list for PBXNativeTarget "Pods-Celiac Now" */;
+			buildPhases = (
+				AD2EBA9DB4979102DB240F7ADEB91B9D /* Headers */,
+				A43F3E5926998783FA49B9E9BE4CC7DD /* Sources */,
+				18AED97D2FECF75569E7E32D27C0C7E3 /* Frameworks */,
+				39D8AD2411175A8252BFA99EF4709B46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E91D935AA88715643F65373BFEE00E /* PBXTargetDependency */,
+			);
+			name = "Pods-Celiac Now";
+			productName = "Pods-Celiac Now";
+			productReference = 80CA51ECC4A32FD824BF403888AEE5E1 /* Pods_Celiac_Now.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D845301CDAA7C58187BF5B670A5E4A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BABC6E19C258A11D66D32C9EB95CFEAD /* Pods-Celiac Now */,
+				9CA717913DD72A57C092BCA270D1D123 /* Pods-Celiac NowTests */,
+				678ABB31FB48D3052995A16EEE2CA342 /* SwiftSoup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E9D2F0097C6E999337ABDD86A417ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D8AD2411175A8252BFA99EF4709B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB665C32ECA59FEBA45C984F4ED866F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EE692B5A5C9349D3E6B62A8D75321E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E934F41460BE7567B9AC9D843730F027 /* Pods-Celiac NowTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E6DABFA14E6EF362E6C46FC364FED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7DB551C2BEC8B641D8F6B14FC49BE5 /* ArrayExt.swift in Sources */,
+				415CFFB0C9577AAEBA6A9D159BB00BBB /* Attribute.swift in Sources */,
+				497C5CB41CF5B219FCDC0945FDE749A0 /* Attributes.swift in Sources */,
+				9AD6AEA3FF61B9B5C039B720CDB73E6C /* BooleanAttribute.swift in Sources */,
+				42F54A9303080CF258E119258227DB60 /* CharacterExt.swift in Sources */,
+				817CBB212A801EF12C0176E9DF57072C /* CharacterReader.swift in Sources */,
+				6EA063F3A605F9E6CACFE93EDF45A6CF /* Cleaner.swift in Sources */,
+				1CDC08B83A1817A77C92A49360DCE957 /* Collector.swift in Sources */,
+				26628266D2213F35EAA59604A08DD5FD /* CombiningEvaluator.swift in Sources */,
+				2631AB6E2D89081D9971412B7EC7A2ED /* Comment.swift in Sources */,
+				162E235E6DCE36B3ECA6C5F6996E214C /* Connection.swift in Sources */,
+				8749CAEFCC3F6E7460BD0F26D902CEB1 /* DataNode.swift in Sources */,
+				98BBC24BC9D6030A05B1A21DF6EF0AB1 /* DataUtil.swift in Sources */,
+				88317E36C2EF8FD15E20FF903FB25A45 /* Document.swift in Sources */,
+				F7204E37645D860A52456BF57B210973 /* DocumentType.swift in Sources */,
+				710009FFC9A32C991C49D115BC06AF90 /* Element.swift in Sources */,
+				7E8F0A0663B391C77D9111EF04F5B2A9 /* Elements.swift in Sources */,
+				E2D3F9E121C79DED0A564076E43CFA9E /* Entities.swift in Sources */,
+				124A047E25271655A709E26F8FDD5BE1 /* Evaluator.swift in Sources */,
+				CC0DBEAE1F59B4578855F6CF95C27D2A /* Exception.swift in Sources */,
+				0D7C88711B6460B5ED51EC69E81A14FE /* FormElement.swift in Sources */,
+				E88D05CA8E24E8B4EF4FAC7267120BD7 /* HtmlTreeBuilder.swift in Sources */,
+				387D273992A82E29AA82DC481C9D4638 /* HtmlTreeBuilderState.swift in Sources */,
+				8E606DFD8613A123EFC6ACD6B6C760FC /* HttpStatusException.swift in Sources */,
+				5802600B4CD07E297BF64D6F87763189 /* Node.swift in Sources */,
+				6EAA6336DD1BA5D648F53C481CE92852 /* NodeTraversor.swift in Sources */,
+				E182762847E07E6615A327DF6C2285B2 /* NodeVisitor.swift in Sources */,
+				4BBBFFED2A7E7ED87A9E84DEA4096AD0 /* OrderedDictionary.swift in Sources */,
+				FB2AE5564543CBF32C8BF6A9BD73F31D /* OrderedSet.swift in Sources */,
+				3B78BD67116ED4B4F8C7AC8461693FFE /* ParseError.swift in Sources */,
+				68C162A641A23179DFD3A32F7F769FF6 /* ParseErrorList.swift in Sources */,
+				54C80E9D259E92DCB502462D3C9598F3 /* Parser.swift in Sources */,
+				609E3831E09DB6A77AF8A029B2F7534A /* ParseSettings.swift in Sources */,
+				49FD17D0F4DAE6DD3BC4404533BE24D6 /* Pattern.swift in Sources */,
+				BD3AD6A7382162ACBE931170CC313591 /* QueryParser.swift in Sources */,
+				1A1831DD1F4F02BDDC9094D794CCE57F /* Selector.swift in Sources */,
+				2753AC420CE5AE81AD3E6466EAF86539 /* SerializationException.swift in Sources */,
+				1A6DAA4BC9B39054A4194C0A889CAA21 /* SimpleDictionary.swift in Sources */,
+				AE19054DE9D107F5852B9DBCEE4C0318 /* StreamReader.swift in Sources */,
+				A7C1DEED3A92D24587A2BB8B997DB3C6 /* String.swift in Sources */,
+				DA006C8BA8E2471D8EB9CD4B9E2F0971 /* StringBuilder.swift in Sources */,
+				CFE2193EC53FCACF68E64F7C4D859273 /* StringUtil.swift in Sources */,
+				77EF27BB55BA068D05DE7ADC005F7EA3 /* StructuralEvaluator.swift in Sources */,
+				45D01A76B0BBCC1302272AB7D8DE6EB5 /* SwiftSoup-dummy.m in Sources */,
+				5E9B1612588F919383759198E606B582 /* SwiftSoup.swift in Sources */,
+				B622744A7A22045C4192230EACBFFD17 /* Tag.swift in Sources */,
+				D828D2648BD498A36BF802EF3564C7CE /* TextNode.swift in Sources */,
+				3C8E68529462656ADD46C09A72AE969B /* Token.swift in Sources */,
+				96A16AAA75B4FA24A61185DB4D8BC416 /* Tokeniser.swift in Sources */,
+				2C0CA0F24EFEF1359BCC3AFCBDAA67EE /* TokeniserState.swift in Sources */,
+				3BE0144AB569AAF003D8D75D8E1005A5 /* TokenQueue.swift in Sources */,
+				C9B0C07F4BBAABCA1A08E53525E6D827 /* TreeBuilder.swift in Sources */,
+				71142771FC2706005CB384C45C0BAE44 /* UnicodeScalar.swift in Sources */,
+				D07DB01676F245A54ACB292C395B6BB6 /* Validate.swift in Sources */,
+				D5A7967B806165051CE140994E4F7E74 /* Whitelist.swift in Sources */,
+				93BE6B65D655998BD4319440C3A714F9 /* XmlDeclaration.swift in Sources */,
+				846077030205CF405CFE3D640478F131 /* XmlTreeBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43F3E5926998783FA49B9E9BE4CC7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F66CA2A07A27A71E470AA7ECEB40E5 /* Pods-Celiac Now-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85DB5324D1C31E7DA744E73D9E35BB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Celiac Now";
+			target = BABC6E19C258A11D66D32C9EB95CFEAD /* Pods-Celiac Now */;
+			targetProxy = BEF03043BE174CB1E16C24C710B1DF8D /* PBXContainerItemProxy */;
+		};
+		B1E91D935AA88715643F65373BFEE00E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = 678ABB31FB48D3052995A16EEE2CA342 /* SwiftSoup */;
+			targetProxy = EFE56CFECDF3A91DEA23180E4A4E00E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00D53038DBE860264C3B835598B7AE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B2359CA3296311D2AA19E659CCDCA9 /* Pods-Celiac NowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Celiac NowTests/Pods-Celiac NowTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Celiac NowTests/Pods-Celiac NowTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		039A41D57975CFB0EA5B9FC81E9D8667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83741758CCD8C1A985BE4796C3300B59 /* Pods-Celiac Now.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Celiac Now/Pods-Celiac Now-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Celiac Now/Pods-Celiac Now.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		178843BD366C6E272251B820A021187B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7761757ACAC9BDB6BF11CE6C00DD6BEA /* SwiftSoup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/SwiftSoup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSoup;
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26473CD74CC3CE5212EDB56601C503D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EC990E337A28336FA56CA30FAD8768 /* Pods-Celiac Now.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Celiac Now/Pods-Celiac Now-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Celiac Now/Pods-Celiac Now.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BAB8884185A256A581B6B5CF7EEE6C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7044172686ACA62539A7CB17656B81DB /* Pods-Celiac NowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Celiac NowTests/Pods-Celiac NowTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Celiac NowTests/Pods-Celiac NowTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C915B5C05788FBD21E908394A834E880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7761757ACAC9BDB6BF11CE6C00DD6BEA /* SwiftSoup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/SwiftSoup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSoup;
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD90EC8A06068ED3F705132690246AD /* Build configuration list for PBXNativeTarget "SwiftSoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178843BD366C6E272251B820A021187B /* Debug */,
+				C915B5C05788FBD21E908394A834E880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4A5205529D72A1287AD81A9D671862 /* Build configuration list for PBXNativeTarget "Pods-Celiac Now" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26473CD74CC3CE5212EDB56601C503D1 /* Debug */,
+				039A41D57975CFB0EA5B9FC81E9D8667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B246C013B2155AA2BFCF293308727784 /* Build configuration list for PBXNativeTarget "Pods-Celiac NowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB8884185A256A581B6B5CF7EEE6C4B /* Debug */,
+				00D53038DBE860264C3B835598B7AE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
