@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Celiac_Now" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcT-Zq-AqG">
+                                <rect key="frame" x="122.5" y="326" width="130" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="yj4-d1-8s9"/>
+                                    <constraint firstAttribute="width" constant="130" id="yoD-0M-aNd"/>
+                                </constraints>
+                                <state key="normal" title="food" image="food.png"/>
+                                <connections>
+                                    <segue destination="30r-9w-ur4" kind="show" id="CfY-dq-jqv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celiac Now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="t0V-db-IvL">
+                                <rect key="frame" x="20" y="90" width="335" height="56"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="48"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21D-vE-MCP">
+                                <rect key="frame" x="122.5" y="464" width="130" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="F1t-5A-9sF"/>
+                                    <constraint firstAttribute="width" constant="130" id="o5g-X1-4n5"/>
+                                </constraints>
+                                <state key="normal" title="news" image="news.png"/>
+                                <connections>
+                                    <segue destination="y3t-FP-3D2" kind="show" id="vQD-xx-o5k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpd-qk-8Sq">
+                                <rect key="frame" x="122.5" y="188" width="130" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="HhT-b9-jPv"/>
+                                    <constraint firstAttribute="height" constant="128" id="kaI-mF-8V7"/>
+                                </constraints>
+                                <state key="normal" title="barcode" image="barcode.png"/>
+                                <connections>
+                                    <segue destination="pW9-2t-UlK" kind="show" id="Zjs-9a-yRc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t0V-db-IvL" secondAttribute="trailing" constant="20" id="9Td-SR-T38"/>
+                            <constraint firstItem="21D-vE-MCP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FPT-Lo-wYF"/>
+                            <constraint firstItem="fcT-Zq-AqG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HBR-Ba-4He"/>
+                            <constraint firstItem="t0V-db-IvL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MFT-gy-KNI"/>
+                            <constraint firstItem="t0V-db-IvL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="VCh-wU-uwP"/>
+                            <constraint firstItem="21D-vE-MCP" firstAttribute="top" secondItem="fcT-Zq-AqG" secondAttribute="bottom" constant="10" id="Zw9-gK-S7k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="21D-vE-MCP" secondAttribute="bottom" constant="75" id="bRZ-QS-Dr5"/>
+                            <constraint firstItem="fcT-Zq-AqG" firstAttribute="top" secondItem="Rpd-qk-8Sq" secondAttribute="bottom" constant="10" id="knR-Lo-yFa"/>
+                            <constraint firstItem="t0V-db-IvL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rMQ-gc-TAy"/>
+                            <constraint firstItem="Rpd-qk-8Sq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u8s-Ae-Ylw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-940" y="-135"/>
+        </scene>
+        <!--Barcode View Controller-->
+        <scene sceneID="TMc-D8-Pgh">
+            <objects>
+                <viewController id="pW9-2t-UlK" customClass="BarcodeViewController" customModule="Celiac_Now" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P9B-wu-rAU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiA-ZB-T3a">
+                                <rect key="frame" x="16" y="30" width="38" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="MY1-M5-Fun"/>
+                                    <constraint firstAttribute="width" constant="38" id="bMY-zM-WKN"/>
+                                </constraints>
+                                <state key="normal" title="&lt;"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sC2-s5-OfR">
+                                <rect key="frame" x="20" y="25" width="38" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="Jkn-SG-hbd"/>
+                                    <constraint firstAttribute="height" constant="32" id="u3O-lr-pji"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="back arrow.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="UuG-1A-uAh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sC2-s5-OfR" firstAttribute="top" secondItem="hlB-Wu-PC7" secondAttribute="top" constant="5" id="36M-m8-KRu"/>
+                            <constraint firstItem="BiA-ZB-T3a" firstAttribute="top" secondItem="hlB-Wu-PC7" secondAttribute="top" constant="10" id="Kia-U5-YfV"/>
+                            <constraint firstItem="sC2-s5-OfR" firstAttribute="leading" secondItem="hlB-Wu-PC7" secondAttribute="leading" constant="20" id="e1U-qH-v2e"/>
+                            <constraint firstItem="BiA-ZB-T3a" firstAttribute="leading" secondItem="hlB-Wu-PC7" secondAttribute="leading" constant="15" id="wPS-Od-d9z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hlB-Wu-PC7"/>
+                    </view>
+                    <connections>
+                        <outlet property="backArrow" destination="sC2-s5-OfR" id="qyT-U5-XmE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WJN-y4-UCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2000000000000002" y="-135.38230884557723"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="G9m-1w-AzF">
+            <objects>
+                <viewController id="gRT-ni-1g3" customClass="DetailsViewController" customModule="Celiac_Now" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uyH-QR-dlf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Uih-Wu-fGl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nGr-sw-tO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="800" y="-137"/>
+        </scene>
+        <!--Restaurant View Controller-->
+        <scene sceneID="p3B-A1-1EL">
+            <objects>
+                <viewController id="30r-9w-ur4" customClass="RestaurantViewController" customModule="Celiac_Now" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p5l-na-dVT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdR-YP-snj">
+                                <rect key="frame" x="15" y="20" width="38" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="JvT-Ml-P5I"/>
+                                    <constraint firstAttribute="width" constant="38" id="mot-Po-Zdv"/>
+                                </constraints>
+                                <state key="normal" title="back arrow" image="back arrow.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="G3G-T4-YPB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Restaurant Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jt1-5Q-ERy">
+                                <rect key="frame" x="108" y="99" width="159" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZdR-YP-snj" firstAttribute="leading" secondItem="AGD-jD-bzq" secondAttribute="leading" constant="15" id="uom-Cx-aTv"/>
+                            <constraint firstItem="ZdR-YP-snj" firstAttribute="top" secondItem="AGD-jD-bzq" secondAttribute="top" id="yLA-ll-EuD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AGD-jD-bzq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gOU-DM-ydr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-940" y="618"/>
+        </scene>
+        <!--News View Controller-->
+        <scene sceneID="H2x-8x-uUY">
+            <objects>
+                <viewController id="y3t-FP-3D2" customClass="NewsViewController" customModule="Celiac_Now" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T8n-jT-EBg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vK5-Q9-HCP">
+                                <rect key="frame" x="15" y="30" width="38" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="gHz-Ed-nmo"/>
+                                    <constraint firstAttribute="width" constant="38" id="gpX-fF-x1I"/>
+                                </constraints>
+                                <state key="normal" title="back arrow" image="back arrow.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Wyn-n1-JLC"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2ZC-Ho-IwJ">
+                                <rect key="frame" x="0.0" y="65" width="375" height="602"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recent Celiac News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWa-kb-TSX">
+                                <rect key="frame" x="76" y="35" width="223" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ZId-qe-XBG"/>
+                                    <constraint firstAttribute="width" constant="223" id="iPD-JW-Uik"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nm7-2R-p0m" firstAttribute="bottom" secondItem="2ZC-Ho-IwJ" secondAttribute="bottom" id="4vP-Cp-JXc"/>
+                            <constraint firstItem="vK5-Q9-HCP" firstAttribute="top" secondItem="Nm7-2R-p0m" secondAttribute="top" constant="10" id="947-U2-s3A"/>
+                            <constraint firstItem="2ZC-Ho-IwJ" firstAttribute="top" secondItem="Nm7-2R-p0m" secondAttribute="top" constant="45" id="BVe-RW-9nC"/>
+                            <constraint firstItem="jWa-kb-TSX" firstAttribute="top" secondItem="Nm7-2R-p0m" secondAttribute="top" constant="15" id="URM-gp-qO9"/>
+                            <constraint firstItem="2ZC-Ho-IwJ" firstAttribute="leading" secondItem="Nm7-2R-p0m" secondAttribute="leading" id="lOT-yL-pZ6"/>
+                            <constraint firstItem="jWa-kb-TSX" firstAttribute="centerX" secondItem="T8n-jT-EBg" secondAttribute="centerX" id="oSG-Ox-0fW"/>
+                            <constraint firstItem="Nm7-2R-p0m" firstAttribute="trailing" secondItem="2ZC-Ho-IwJ" secondAttribute="trailing" id="x0B-e6-YnR"/>
+                            <constraint firstItem="vK5-Q9-HCP" firstAttribute="leading" secondItem="Nm7-2R-p0m" secondAttribute="leading" constant="15" id="zmU-5m-brR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nm7-2R-p0m"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="2ZC-Ho-IwJ" id="dwH-MC-Fv1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4sx-EP-tpr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7" y="618"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back arrow.png" width="128" height="128"/>
+        <image name="barcode.png" width="128" height="128"/>
+        <image name="food.png" width="128" height="128"/>
+        <image name="news.png" width="128" height="128"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="UuG-1A-uAh"/>
+    </inferredMetricsTieBreakers>
+</document>
