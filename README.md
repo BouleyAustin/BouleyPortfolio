@@ -1,2 +1,2 @@
 # AustinBouleyPortfolio
-I attend the Unversity of Houston-Clear Lake. I am a Computer Science and Finance Major with an expected graduation date of December 2020. My current GPA is 3.94. I have been programming since 2016. I am proficient in HTML, CSS, Java, and Python as well as knowledgable in Swift. I am currently working on an App using Swift, but I am keeping the source code private. These projects are from highschool. 
+I attend the Unversity of Houston-Clear Lake. I am a Computer Science and Finance Major with an expected graduation date of December 2020. My current GPA is 3.94. I have been programming since 2016. I am proficient in HTML, CSS, Java, and Python as well as knowledgable in Swift. 
